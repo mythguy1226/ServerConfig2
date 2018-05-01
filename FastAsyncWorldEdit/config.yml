@@ -1,23 +1,23 @@
 # These first 6 aren't configurable
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "21 May 2018 05:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1083"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/13b5ded"
+date: "29 May 2018 05:00:00 GMT"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/1094"
+commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/7519f73"
 platform: "bukkit"
 # Options: de, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
 language: ''
-# Allow the plugin to update
+# Enable or disable automatic updates
 update: true
 # Send anonymous usage statistics
 metrics: true
-# FAWE will skip chunks when there's not enough memory available
-prevent-crashes: false
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
 # fawe.<plugin>  permission. See the Permissions page for supported region plugins.
 region-restrictions: true
+# FAWE will skip chunks when there's not enough memory available
+prevent-crashes: false
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.

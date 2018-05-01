@@ -1,6 +1,6 @@
 bind('player_quit',null,null,@event){
     @player = @event['player']
-
+    set_pscore('ReverseTag',@player,0)
     @eventID = import(@player."isVibrating")
     clear_task(@eventID)
 

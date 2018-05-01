@@ -217,6 +217,31 @@ MaskCommands:
     - '#id'
     usage: ''
     desc: Restrict to initial id
+  (:
+    help: |-
+      Restrict to near specific terrain slope rate of change
+      The -o flag will only overlay
+      Example: ([0d][45d][5]
+      Explanation: Restrict near where the angle changes between 0-45 degrees within 5 blocks
+      Note: Use negatives for decreasing slope
+    aliases:
+    - (
+    - )
+    - '#roc'
+    usage: <min> <max> [distance=4]
+    desc: Restrict to near specific terrain slope rate of change
+  ^:
+    help: |-
+      Restrict to near specific terrain extrema
+      The -o flag will only overlay
+      Example: ([0d][45d][5]
+      Explanation: Restrict to near 45 degrees of local maxima
+      Note: Use negatives for local minima
+    aliases:
+    - ^
+    - '#extrema'
+    usage: <min> <max> [distance=1]
+    desc: Restrict to near specific terrain extrema
 PatternCommands:
   '#clipboard':
     help: ''
@@ -1796,6 +1821,12 @@ WorldEditCommands:
     - help
     usage: '[<command>]'
     desc: Displays help for FAWE commands
+  update:
+    help: ''
+    aliases:
+    - update
+    usage: ''
+    desc: Update the plugin
 SchematicCommands:
   schematic:
     help: ''
