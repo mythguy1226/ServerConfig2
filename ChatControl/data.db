@@ -20,9 +20,6 @@ Players:
   PsychicVictini:
     Channels:
       Global: write
-  That_David:
-    Channels:
-      Global: write
   TheBenism:
     Channels:
       Global: write
@@ -51,9 +48,6 @@ Players:
     Channels:
       Global: write
   Christina1125:
-    Channels:
-      Global: write
-  _MysteryM_:
     Channels:
       Global: write
   Grim__:
@@ -96,10 +90,6 @@ Players:
     Channels:
       Global: write
   minecraft882001:
-    Channels:
-      Global: write
-  xSp4rkz:
-    Spying: true
     Channels:
       Global: write
   VipeGamingYT:
@@ -150,9 +140,6 @@ Players:
   SuperrCrazyGamer:
     Channels:
       Global: write
-  ItzWallyW_:
-    Channels:
-      Global: write
   MacLightning:
     Channels:
       Global: write
@@ -183,19 +170,10 @@ Players:
   LoneRanger13:
     Channels:
       Global: write
-  Draconid:
-    Channels:
-      Global: write
   DrJoefenstein:
     Channels:
       Global: write
-  MalusVexJr:
-    Channels:
-      Global: write
   kyle_rayner_dc:
-    Channels:
-      Global: write
-  Cuboidalcorgi29:
     Channels:
       Global: write
   Dinoking0322:
@@ -229,9 +207,6 @@ Players:
     Channels:
       Global: write
   Bethlagon:
-    Channels:
-      Global: write
-  doodleflower:
     Channels:
       Global: write
   Spiderman1109:
@@ -270,9 +245,6 @@ Players:
   Sub2Randomjedi:
     Channels:
       Global: write
-  CheesePizza777:
-    Channels:
-      Global: write
   itsJSullivan:
     Channels:
       Global: write
@@ -286,9 +258,6 @@ Players:
     Channels:
       Global: write
   King_Of_Minecrft:
-    Channels:
-      Global: write
-  DrSmexy:
     Channels:
       Global: write
   GreninjaLucario:
@@ -381,9 +350,6 @@ Players:
   SgtJaffas:
     Channels:
       Global: write
-  HuginStif:
-    Channels:
-      Global: write
   DomZilla04:
     Channels:
       Global: write
@@ -426,9 +392,6 @@ Players:
   Thosification:
     Channels:
       Global: write
-  cms650:
-    Channels:
-      Global: write
   xDevilsGirl:
     Channels:
       Global: write
@@ -436,9 +399,6 @@ Players:
     Channels:
       Global: write
   Guitar_Hero:
-    Channels:
-      Global: write
-  KazutoKun_:
     Channels:
       Global: write
   C4PT41NJD4Y:
@@ -459,9 +419,6 @@ Players:
   xBlqckGirl__:
     Channels:
       Global: write
-  HurricaneNeo:
-    Channels:
-      Global: write
   MatthewDragner:
     Channels:
       Global: write
@@ -471,34 +428,7 @@ Players:
   Tailsssonic:
     Channels:
       Global: write
-  MysticalUmby:
-    Channels:
-      Global: write
-  Randa21:
-    Channels:
-      Global: write
-  EchoSD:
-    Channels:
-      Global: write
   BepisPupper:
-    Channels:
-      Global: write
-  AJBlader:
-    Channels:
-      Global: write
-  Kyle_Parker:
-    Channels:
-      Global: write
-  jlphx:
-    Channels:
-      Global: write
-  ExileGaming_:
-    Channels:
-      Global: write
-  Eisman333:
-    Channels:
-      Global: write
-  ash30702:
     Channels:
       Global: write
   Yqllow:
@@ -507,19 +437,10 @@ Players:
   Tommy51:
     Channels:
       Global: write
-  TheFlashQ:
-    Channels:
-      Global: write
   BearBrother1:
     Channels:
       Global: write
   BearBrother2:
-    Channels:
-      Global: write
-  LilTampon:
-    Channels:
-      Global: write
-  BallersForLyfe:
     Channels:
       Global: write
   DJ_Random:
@@ -534,34 +455,10 @@ Players:
   imcoolbo:
     Channels:
       Global: write
-  DUMA1:
-    Channels:
-      Global: write
-  _SpiderMonkey:
-    Channels:
-      Global: write
-  awesomegamer5193:
-    Channels:
-      Global: write
-  Skyequakejohnson:
-    Channels:
-      Global: write
-  HER08RINE:
-    Channels:
-      Global: write
   ironsquid:
     Channels:
       Global: write
-  PixelTypePanda:
-    Channels:
-      Global: write
   DodiThunder:
-    Channels:
-      Global: write
-  SalemtheWicca:
-    Channels:
-      Global: write
-  doriathefish:
     Channels:
       Global: write
   NightFeveris:
@@ -1633,5 +1530,41 @@ Players:
     Channels:
       Global: write
   DareDevilD:
+    Channels:
+      Global: write
+  Lurking0139:
+    Channels:
+      Global: write
+  xoxolucy15:
+    Channels:
+      Global: write
+  TheEnchantedFist:
+    Channels:
+      Global: write
+  DoNotSmash:
+    Channels:
+      Global: write
+  Roycoordinate:
+    Channels:
+      Global: write
+  Ntina9:
+    Channels:
+      Global: write
+  Nexominer:
+    Channels:
+      Global: write
+  govanni:
+    Channels:
+      Global: write
+  BatmanGaming23:
+    Channels:
+      Global: write
+  TexasDonut:
+    Channels:
+      Global: write
+  WeakSphere:
+    Channels:
+      Global: write
+  AhmetAkcay:
     Channels:
       Global: write

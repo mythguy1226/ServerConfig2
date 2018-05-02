@@ -37,7 +37,7 @@ item:
   enchant_unsafe: You do not have permission to add unsafe enchantments
   no_attribute: That item does not have the $attribute attribute
   attribute_removed: Removed the $attribute attribute from your item
-  attribute_added: Set the $attribute attribute on your item to $value for $slot
+  attribute_added: Set the $attribute attribute on your item to $value for $slot ($operation)
   attribute_not_added: Could not set the $attribute attribute on your item
   skull: Your book has been turned into a skull
   skull_no_book: You must hold a written book with skull data in it
@@ -383,27 +383,35 @@ spells:
   arrow_light:
     name: Light Arrow
     description: Fire an arrow of pure light
+    cast_player_message: a:$player short a $spell at you
   arrow_bomb:
     name: Bomb Arrow
     description: Fire an exploding arrow
+    cast_player_message: a:$player short a $spell at you
   arrow_poison:
     name: Poison Arrow
     description: Fire a arrow that bursts into a poison cloud
+    cast_player_message: a:$player short a $spell at you
   arrow_regular:
     name: Normal Arrow
     description: Fire a normal arrow
+    cast_player_message: a:$player short a $spell at you
   arrow_blink:
     name: Blink Arrow
     description: Teleport to the location where your arrow lands
+    cast_player_message: a:$player short a $spell at you
   arrow_fire:
     name: Fire Arrow
     description: Lights a fire where it lands
+    cast_player_message: a:$player short a $spell at you
   arrow_ice:
     name: Ice Arrow
     description: Freeze the area where it lands
+    cast_player_message: a:$player short an $spell at you
   arrow_shock:
     name: Shock Arrow
     description: Electrify the target
+    cast_player_message: a:$player short a $spell at you
   toss:
     name: Toss
     description: Toss a block
@@ -1900,6 +1908,9 @@ spells:
   nobabies:
     name: No Babies
     description: Make all baby mobs grow up into adults
+  vanish:
+    name: Vanish
+    description: Make yourself completely invisible to other players.
   accio:
     name: Accio
     description: Summons an object to you

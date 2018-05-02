@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------------------------
 # 
-#  Your file has been automatically updated at 24.04.2018 12:27:35
-#  to ChatControl 7.8.8
+#  Your file has been automatically updated at 01.05.2018 10:26:14
+#  to ChatControl 7.8.10
 # 
 #  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
 #  preserve the documentation comments in your file. We apologies.
@@ -172,6 +172,7 @@ Ignore:
   - ign
   Chat: true
   Private_Messages: true
+  Report_To_Essentials: true
 Packets:
   Enabled: true
   Tab_Complete:

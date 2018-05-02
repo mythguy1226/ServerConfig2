@@ -2,8 +2,8 @@
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
 date: "29 May 2018 05:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1094"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/7519f73"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/1096"
+commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/d32bcaa"
 platform: "bukkit"
 # Options: de, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
@@ -106,6 +106,9 @@ experimental:
   vanilla-cui: false
   # Disable using native libraries
   disable-natives: false
+  # [SAFE] Keep entities that are positioned in non-air blocks when editing an area
+  # Might cause client-side FPS lagg in some situations
+  keep-entities-in-blocks: false
 
 # This relates to how FAWE places chunks
 queue:

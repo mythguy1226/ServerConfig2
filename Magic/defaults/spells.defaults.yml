@@ -15611,6 +15611,26 @@ upgradeshop:
       cost: 500
     - item: wand|hotbar3
       cost: 1000
+vanish:
+  icon: diamond_axe:116
+  icon_disabled: diamond_hoe:116
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  category: staff
+  tags: noduel
+  toggle: undo
+  actions:
+    cast:
+    - class: Vanish
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.vanish
+    - class: EffectRing
+      particle: smoke_normal
+      location: target
+  parameters:
+    target: self
+    cooldown: 1000
 virus:
   hidden: true
   icon: diamond_axe:15
@@ -16439,6 +16459,7 @@ wither:
       - class: AreaOfEffect
         actions:
         - class: PotionEffect
+        - class: Damage
   effects:
     cast:
     - sound: entity_wither_shoot
@@ -16483,6 +16504,7 @@ wither:
     cooldown: 5000
     start: 1
     break_blocks: false
+    damage: 1
   costs:
     mana: 60
 wither|2:
