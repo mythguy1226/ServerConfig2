@@ -35,7 +35,8 @@ powers:
 - /flyspeed <number>
 - /fly
 - /tp <player>
-- /grouptp <player>
+- /grouptp <player> 
+- everyone within radius of you will be teleported along with you to your <player> target
 - /carryplayer <player>
 - /dropplayer
 - /herotransform
