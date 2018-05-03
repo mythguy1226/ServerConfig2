@@ -320,12 +320,6 @@ players:
       name: Nightification
       timestamp: 1524417460
     party: The
-  2a63e405-eecf-480a-9fcf-1e22b996d998:
-    party: The
-    name:
-      timestamp: 1524515828
-      name: RoryDaPanda
-    rank: 5
   ab5533d2-a779-47b4-aa95-2a992bc8f0ce:
     rank: 20
     name:
@@ -339,11 +333,29 @@ players:
     party: Royal
     rank: 20
   cc41c2d9-5ef0-4a02-953d-cfb7c0b155be:
+    rank: 20
+    name:
+      timestamp: 1525297106
+      name: darkstumper
+    party: lol
+  0889f21e-b82c-49a0-ab3c-6e5b0232d093:
+    name:
+      timestamp: 1525297114
+      name: Oranges_are_glad
+    rank: 5
+    party: lol
+  0e88e52e-2945-464e-b4ba-e1e162c6786d:
     rank: 5
     name:
-      timestamp: 1525049659
-      name: darkstumper
-    party: Overwatch
+      timestamp: 1525304225
+      name: Miner_Myles
+    party: lol
+  2a63e405-eecf-480a-9fcf-1e22b996d998:
+    party: lol
+    name:
+      timestamp: 1525310514
+      name: RoryDaPanda
+    rank: 5
 parties:
   TheTitans:
     members:
@@ -366,7 +378,6 @@ parties:
   Overwatch:
     members:
     - 8cb79cd3-1e48-4087-9137-a37e164f1494
-    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
     leader: 8cb79cd3-1e48-4087-9137-a37e164f1494
   oof:
     members:
@@ -457,7 +468,6 @@ parties:
     - 2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303
     - cca2ff81-2c4d-4e12-8e21-f23a501e0207
     - 57b29f1f-dc6b-4d30-80ac-cf64c4df3428
-    - 2a63e405-eecf-480a-9fcf-1e22b996d998
   XFORCE:
     members:
     - ab5533d2-a779-47b4-aa95-2a992bc8f0ce
@@ -466,3 +476,10 @@ parties:
     members:
     - 1d785eb9-a613-430c-a6ee-74a26026e100
     leader: 1d785eb9-a613-430c-a6ee-74a26026e100
+  lol:
+    leader: cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
+    members:
+    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
+    - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
+    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    - 2a63e405-eecf-480a-9fcf-1e22b996d998

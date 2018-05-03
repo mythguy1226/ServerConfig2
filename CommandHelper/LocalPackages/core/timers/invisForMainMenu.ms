@@ -34,7 +34,7 @@ set_cron('*/5 * * * *',closure(
                 @place++
                 if(@winner == ''){
                     @winner = @scores[@i]['name']
-                    set_pscore('ReverseTag',@scores[@i]['name'],0)
+                    runas('~console','/scoreboard players reset '.@winner.' ReverseTag')
                 }
             }
         }
