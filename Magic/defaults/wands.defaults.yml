@@ -51,6 +51,12 @@ base_bow:
   right_click: none
   swap: cycle_hotbar
   quiet: 1
+testwand:
+  inherit: base_wand
+  icon: wood_hoe:1
+  mana: 500
+  mana_max: 500
+  mana_regeneration: 50
 admin:
   inherit: conduit
   path: staff
@@ -1511,7 +1517,7 @@ talisman:
   indestructible: true
   mana_max_boost: 0.3
   mana_regeneration_boost: 0.2
-  sp_multiplier: 1.5
+  earn_multiplier: 1.5
   color: random
   effect_bubbles: true
   keep: true

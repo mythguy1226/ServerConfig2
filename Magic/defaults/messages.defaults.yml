@@ -2601,7 +2601,7 @@ wand:
   mana_regeneration_boosted: '&eMana Regeneration: $amount &f(&b$mana&f)&d/s'
   mana_boost: '&eMana Boost: $percent%'
   mana_regeneration_boost: '&eMana Regeneration Boost: $percent%'
-  sp_multiplier: '&6SP Earn Boost: $percent%'
+  earn_multiplier: '&6$type Earn Boost: $percent%'
   block_chance: '&bBlocking $roman'
   reflect_chance: '&bReflective $roman'
   cost_reduction: '&6Cost Reduction $roman'
@@ -2758,341 +2758,10 @@ wand:
   unmodifiable_prefix: '&6'
   spell_prefix: '&6'
   brush_prefix: '&7'
-automata:
-  awaken: '&c&o$name &r&5has awakened'
-  default_name: Automaton
-  level: Level $roman
-  good:
-    prefixes:
-    - Holy
-    - Light
-    - Shiny
-    - Shimmering
-    - Stalwart
-    - Bright
-    - Savior
-    - Blessed
-    - Magic
-    - Enchanted
-    - Enlightened
-    - Magnificent
-    - Magnamous
-    - Brave
-    - Loyal
-    - Glorious
-    suffixes:
-    - of Holiness
-    - of Honor
-    - of Light
-    - of Lightness
-    - of Protection
-    - of The Sun
-    - of Magic
-    - of The Blessed
-    - of Forgiveness
-    - of Loyalty
-    - of Retribution
-    - of Resilience
-    - of Hope
-    - of Glory
-    - of Absolution
-  evil:
-    prefixes:
-    - Evil
-    - Dark
-    - Slimy
-    - Dreadful
-    - Dread
-    - Cursed
-    - Magic
-    - Enchanted
-    - Harbringer
-    - Nether
-    - Infamous
-    - Nefarious
-    - Distastrous
-    - Eldritch
-    - Disgusting
-    - Retched
-    - Abominable
-    - Horrifying
-    - Calamity
-    - Calamitous
-    - Otherworldly
-    - Deplorable
-    - Apocalyptic
-    - Despicable
-    - Vile
-    - Wretched
-    - Loathsome
-    - Monstrous
-    - Dread
-    suffixes:
-    - of Darkness
-    - of Evil
-    - of the Night
-    - of Death
-    - of Doom
-    - of the Nether
-    - of Magic
-    - of Destruction
-    - of Desolation
-    - of Infamy
-    - of Horror
-    - of the Dark
-    - of the End
-    - of Domination
-    - of the Apocalypse
-    - of Devastation
-    - of the Wilds
-    - of Terror
-    - of Blight
-    - of the Plague
-tags:
-  noduel:
-    name: No Dueling
-    description: Spells that are not allowed in a dueling arena
-  nojail:
-    name: No Jail
-    description: Spells that are not allowed in a jail
-categories:
-  combat:
-    name: Combat Magic
-    description: Basic Attack Spells
-  automata:
-    name: Automata
-    description: Create Life!
-    color: FFA500
-  electrical:
-    name: Electrical
-    description: Mad Science
-    color: '888800'
-  master:
-    name: Master
-    description: All the Really Powerful Stuff
-    color: 00AACC
-  utility:
-    name: Utility
-    description: Utility and movement spells
-  demolition:
-    name: Demolitions
-    description: Highly destructive magic
-    color: FF0000
-  dark:
-    name: Dark Magic
-    description: Evil Stuff!
-    color: '010101'
-  light:
-    name: Light Magic
-    description: Good Stuff
-    color: DDDDDD
-  engineering:
-    name: Engineering
-    description: Spells for magical building
-    color: 00FFFF
-  elemental:
-    name: Elemental
-    description: Control Nature
-  mining:
-    name: Mining
-    description: Spells to help you mine
-  skills:
-    name: Heroes Skills
-    descriptions: Skills being used from Heroes
-  staff:
-    name: Staff
-    description: Staff-only spells
-  specialty:
-    name: Specialty
-    description: Spells meant for item or npc use
-  music:
-    name: Music
-    description: Used for playing music
-  unforgiveable:
-    name: Unforgiveable Hexes
-    description: Casting these spells is a terrible crime.
-  elective:
-    name: Electives
-    description: Various subjects you can choose to take on your own.
-  dada:
-    name: DADA
-    description: Defense Against the Dark Arts
-  charms:
-    name: Charms
-    description: Buffs, Boons and Boosts
-  herbology:
-    name: Herbology
-    description: Give your wand a green thumb
-  transfiguration:
-    name: Transfiguration
-    description: Alchemy, polymorphing
-  creatures:
-    name: Care of Magical Creatures
-    description: Keep them under control!
-  airbending:
-    name: Airbending
-    description: Spells for moving things with air
-    color: DDDDDD
-  waterbending:
-    name: Waterbending
-    description: Control the element of water
-    color: '000088'
-  earthbending:
-    name: Earthbending
-    description: Control the element of earth
-    color: A52A2A
-  firebending:
-    name: Firebending
-    description: Control the element of fire
-    color: FF0000
-  avatar:
-    name: Avatar
-    description: Avatar State spells
-    color: FFFFFF
-  force:
-    name: Force Powers
-    description: Use the force!
-classes:
-  battle_mage:
-    name: Battle Mage
-    description: A warrior who wields a magic sword
-  mage:
-    name: Mage
-    description: The ultimate spellcaster
-  archer_mage:
-    name: Archer Mage
-    description: Skilled with magic bows
-  airbender:
-    name: Airbender
-    description: Master of air
-  waterbender:
-    name: Waterbender
-    description: Master of water
-  earthbender:
-    name: Earthbender
-    description: Master of earth
-  firebender:
-    name: Firebender
-    description: Master of fire
-  avatar:
-    name: Avatar
-    description: Master of all four elements
-  jedi:
-    name: Jedi
-    description: Be one with the force
-  sith:
-    name: Sith
-    description: Surrender to the dark side
-  rebel:
-    name: Rebel
-    description: Fight for the cause
-  trooper:
-    name: Trooper
-    description: Hunt down the rebel scum
-paths:
-  beginner:
-    name: Beginner
-    description: Just starting out with magic
-  student:
-    name: Student
-    description: Starting to learn the basics
-  apprentice:
-    name: Apprentice
-    description: A good variety of spells
-  master:
-    name: Wizard
-    description: The penultimate wizard
-    required_spell: '&cNothing new to learn for now! &4What mystery lies ahead?'
-  engineer:
-    name: Engineer
-    description: Has engineering spells
-  architect:
-    name: Architect
-    description: Has super-powerful engineering spells
-  conduit:
-    name: Conduit
-    description: Can manifest blocks from pure energy
-  battle:
-    name: Warrior
-    description: Low-level combat spells
-  squire:
-    name: Squire
-    description: Mid-level combat spells
-  soldier:
-    name: Soldier
-    description: High-level combat spells
-  knight:
-    name: Knight
-    description: Master-level combat spells
-  broom:
-    name: Broom
-    description: Flying broom upgrades
-  blaster:
-    name: Blaster
-    description: Blaster upgrades
-  staff:
-    name: Staff
-    description: Staff-only spells
-  archer:
-    name: Archer
-    description: Archer spells
-  year1:
-    name: First Year
-    description: First years learn a variety of beginning spells, as well as the basics
-      of wand use.
-  year2:
-    name: Second Year
-    description: Spells for second year students.
-  year3:
-    name: Third Year
-    description: Spells for third year students.
-  year4:
-    name: Fourth Year
-    description: Spells for fourth year students.
-  year5:
-    name: Fifth Year
-    description: Spells for fifth year students.
-  year6:
-    name: Sixth Year
-    description: Spells for sixth year students.
-  year7:
-    name: Seventh Year
-    description: Spells for seventh year students.
-  graduate:
-    name: Graduates
-    description: What comes next?
-  airbending:
-    name: Airbending
-  waterbending:
-    name: Waterbending
-  earthbending:
-    name: Earthbending
-  firebending:
-    name: Firebending
-  avatar:
-    name: Avatar
-    description: Master of all four elements
-  youngling:
-    name: Youngling
-  padawan:
-    name: Padawan
-  jedi_knight:
-    name: Jedi Knight
-  jedi_master:
-    name: Jedi Master
-  acolyte:
-    name: Sith Acolyte
-  sith_apprentice:
-    name: Sith Apprentice
-  sith:
-    name: Sith
-  marauder:
-    name: Sith Marauder
-  sith_master:
-    name: Sith Master
-  sith_lord:
-    name: Sith Lord
 wands:
+  testwand:
+    name: Test Wand
+    description: An empty wand to use for testing spells.
   default:
     name: Wand
     description: $path Magic Wand
@@ -3752,6 +3421,340 @@ wands:
     description: |-
       Weapon of a $path
       &7Press Q to view force powers, drag to hotbar to use
+automata:
+  awaken: '&c&o$name &r&5has awakened'
+  default_name: Automaton
+  level: Level $roman
+  good:
+    prefixes:
+    - Holy
+    - Light
+    - Shiny
+    - Shimmering
+    - Stalwart
+    - Bright
+    - Savior
+    - Blessed
+    - Magic
+    - Enchanted
+    - Enlightened
+    - Magnificent
+    - Magnamous
+    - Brave
+    - Loyal
+    - Glorious
+    suffixes:
+    - of Holiness
+    - of Honor
+    - of Light
+    - of Lightness
+    - of Protection
+    - of The Sun
+    - of Magic
+    - of The Blessed
+    - of Forgiveness
+    - of Loyalty
+    - of Retribution
+    - of Resilience
+    - of Hope
+    - of Glory
+    - of Absolution
+  evil:
+    prefixes:
+    - Evil
+    - Dark
+    - Slimy
+    - Dreadful
+    - Dread
+    - Cursed
+    - Magic
+    - Enchanted
+    - Harbringer
+    - Nether
+    - Infamous
+    - Nefarious
+    - Distastrous
+    - Eldritch
+    - Disgusting
+    - Retched
+    - Abominable
+    - Horrifying
+    - Calamity
+    - Calamitous
+    - Otherworldly
+    - Deplorable
+    - Apocalyptic
+    - Despicable
+    - Vile
+    - Wretched
+    - Loathsome
+    - Monstrous
+    - Dread
+    suffixes:
+    - of Darkness
+    - of Evil
+    - of the Night
+    - of Death
+    - of Doom
+    - of the Nether
+    - of Magic
+    - of Destruction
+    - of Desolation
+    - of Infamy
+    - of Horror
+    - of the Dark
+    - of the End
+    - of Domination
+    - of the Apocalypse
+    - of Devastation
+    - of the Wilds
+    - of Terror
+    - of Blight
+    - of the Plague
+tags:
+  noduel:
+    name: No Dueling
+    description: Spells that are not allowed in a dueling arena
+  nojail:
+    name: No Jail
+    description: Spells that are not allowed in a jail
+categories:
+  combat:
+    name: Combat Magic
+    description: Basic Attack Spells
+  automata:
+    name: Automata
+    description: Create Life!
+    color: FFA500
+  electrical:
+    name: Electrical
+    description: Mad Science
+    color: '888800'
+  master:
+    name: Master
+    description: All the Really Powerful Stuff
+    color: 00AACC
+  utility:
+    name: Utility
+    description: Utility and movement spells
+  demolition:
+    name: Demolitions
+    description: Highly destructive magic
+    color: FF0000
+  dark:
+    name: Dark Magic
+    description: Evil Stuff!
+    color: '010101'
+  light:
+    name: Light Magic
+    description: Good Stuff
+    color: DDDDDD
+  engineering:
+    name: Engineering
+    description: Spells for magical building
+    color: 00FFFF
+  elemental:
+    name: Elemental
+    description: Control Nature
+  mining:
+    name: Mining
+    description: Spells to help you mine
+  skills:
+    name: Heroes Skills
+    descriptions: Skills being used from Heroes
+  staff:
+    name: Staff
+    description: Staff-only spells
+  specialty:
+    name: Specialty
+    description: Spells meant for item or npc use
+  music:
+    name: Music
+    description: Used for playing music
+  unforgiveable:
+    name: Unforgiveable Hexes
+    description: Casting these spells is a terrible crime.
+  elective:
+    name: Electives
+    description: Various subjects you can choose to take on your own.
+  dada:
+    name: DADA
+    description: Defense Against the Dark Arts
+  charms:
+    name: Charms
+    description: Buffs, Boons and Boosts
+  herbology:
+    name: Herbology
+    description: Give your wand a green thumb
+  transfiguration:
+    name: Transfiguration
+    description: Alchemy, polymorphing
+  creatures:
+    name: Care of Magical Creatures
+    description: Keep them under control!
+  airbending:
+    name: Airbending
+    description: Spells for moving things with air
+    color: DDDDDD
+  waterbending:
+    name: Waterbending
+    description: Control the element of water
+    color: '000088'
+  earthbending:
+    name: Earthbending
+    description: Control the element of earth
+    color: A52A2A
+  firebending:
+    name: Firebending
+    description: Control the element of fire
+    color: FF0000
+  avatar:
+    name: Avatar
+    description: Avatar State spells
+    color: FFFFFF
+  force:
+    name: Force Powers
+    description: Use the force!
+classes:
+  battle_mage:
+    name: Battle Mage
+    description: A warrior who wields a magic sword
+  mage:
+    name: Mage
+    description: The ultimate spellcaster
+  archer_mage:
+    name: Archer Mage
+    description: Skilled with magic bows
+  airbender:
+    name: Airbender
+    description: Master of air
+  waterbender:
+    name: Waterbender
+    description: Master of water
+  earthbender:
+    name: Earthbender
+    description: Master of earth
+  firebender:
+    name: Firebender
+    description: Master of fire
+  avatar:
+    name: Avatar
+    description: Master of all four elements
+  jedi:
+    name: Jedi
+    description: Be one with the force
+  sith:
+    name: Sith
+    description: Surrender to the dark side
+  rebel:
+    name: Rebel
+    description: Fight for the cause
+  trooper:
+    name: Trooper
+    description: Hunt down the rebel scum
+paths:
+  beginner:
+    name: Beginner
+    description: Just starting out with magic
+  student:
+    name: Student
+    description: Starting to learn the basics
+  apprentice:
+    name: Apprentice
+    description: A good variety of spells
+  master:
+    name: Wizard
+    description: The penultimate wizard
+    required_spell: '&cNothing new to learn for now! &4What mystery lies ahead?'
+  engineer:
+    name: Engineer
+    description: Has engineering spells
+  architect:
+    name: Architect
+    description: Has super-powerful engineering spells
+  conduit:
+    name: Conduit
+    description: Can manifest blocks from pure energy
+  battle:
+    name: Warrior
+    description: Low-level combat spells
+  squire:
+    name: Squire
+    description: Mid-level combat spells
+  soldier:
+    name: Soldier
+    description: High-level combat spells
+  knight:
+    name: Knight
+    description: Master-level combat spells
+  broom:
+    name: Broom
+    description: Flying broom upgrades
+  blaster:
+    name: Blaster
+    description: Blaster upgrades
+  staff:
+    name: Staff
+    description: Staff-only spells
+  archer:
+    name: Archer
+    description: Archer spells
+  year1:
+    name: First Year
+    description: First years learn a variety of beginning spells, as well as the basics
+      of wand use.
+  year2:
+    name: Second Year
+    description: Spells for second year students.
+  year3:
+    name: Third Year
+    description: Spells for third year students.
+  year4:
+    name: Fourth Year
+    description: Spells for fourth year students.
+  year5:
+    name: Fifth Year
+    description: Spells for fifth year students.
+  year6:
+    name: Sixth Year
+    description: Spells for sixth year students.
+  year7:
+    name: Seventh Year
+    description: Spells for seventh year students.
+  graduate:
+    name: Graduates
+    description: What comes next?
+  airbending:
+    name: Airbending
+  waterbending:
+    name: Waterbending
+  earthbending:
+    name: Earthbending
+  firebending:
+    name: Firebending
+  avatar:
+    name: Avatar
+    description: Master of all four elements
+  youngling:
+    name: Youngling
+  padawan:
+    name: Padawan
+  jedi_knight:
+    name: Jedi Knight
+  jedi_master:
+    name: Jedi Master
+  acolyte:
+    name: Sith Acolyte
+  sith_apprentice:
+    name: Sith Apprentice
+  sith:
+    name: Sith
+  marauder:
+    name: Sith Marauder
+  sith_master:
+    name: Sith Master
+  sith_lord:
+    name: Sith Lord
 randomized:
   wood:
   - Acacia

@@ -101,24 +101,6 @@ players:
       timestamp: 1520794210
     party: Wwkq
     rank: 20
-  55679107-589e-4487-abb4-4fca48b26f25:
-    name:
-      name: AgentNuggets
-      timestamp: 1521061757
-    rank: 20
-    party: XMen
-  4d2c833f-8b88-4269-887d-3b84a57435c2:
-    name:
-      timestamp: 1521061770
-      name: shredderxboy
-    party: XMen
-    rank: 5
-  f621586e-8ef8-448d-9264-86b61375052e:
-    name:
-      timestamp: 1521917931
-      name: Mythification
-    rank: 5
-    party: XMen
   ff0fec80-b8d2-4d10-8951-3061c6e7181d:
     rank: 5
     party: Chaos
@@ -134,12 +116,6 @@ players:
   391762eb-24f6-4d95-84d6-bfac682d575a:
     options:
       spy: true
-  4082517f-c021-411b-b302-ccb2d61c84c1:
-    name:
-      name: Bruce_Wayne08
-      timestamp: 1521493037
-    rank: 5
-    party: XMen
   f475c2cf-ebbe-4314-8c6a-7211b32e55ae:
     rank: 20
     party: CHAOS
@@ -333,28 +309,64 @@ players:
     party: Royal
     rank: 20
   cc41c2d9-5ef0-4a02-953d-cfb7c0b155be:
-    rank: 20
+    rank: 10
     name:
-      timestamp: 1525297106
+      timestamp: 1525467027
       name: darkstumper
-    party: lol
+    party: The
+  2a63e405-eecf-480a-9fcf-1e22b996d998:
+    party: The
+    name:
+      timestamp: 1525466741
+      name: RoryDaPanda
+    rank: 5
   0889f21e-b82c-49a0-ab3c-6e5b0232d093:
     name:
-      timestamp: 1525297114
+      timestamp: 1525468572
       name: Oranges_are_glad
     rank: 5
-    party: lol
+    party: The
+  433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
+    rank: 5
+    party: The
+    name:
+      name: AntiSepticEye1
+      timestamp: 1525481673
   0e88e52e-2945-464e-b4ba-e1e162c6786d:
     rank: 5
     name:
-      timestamp: 1525304225
+      timestamp: 1525483222
       name: Miner_Myles
-    party: lol
-  2a63e405-eecf-480a-9fcf-1e22b996d998:
-    party: lol
+    party: The
+  f9e3d8f3-f579-478f-a458-a7efaaf7bcdd:
     name:
-      timestamp: 1525310514
-      name: RoryDaPanda
+      timestamp: 1525483262
+      name: SantaClad
+    rank: 5
+    party: The
+  6370f519-07ce-4448-9666-8e3ba64e85e1:
+    name:
+      timestamp: 1525638596
+      name: StevonnieQuartz
+    party: The
+    rank: 5
+  9179e43f-3c9a-4a67-a794-24a923b2c72c:
+    rank: 20
+    name:
+      name: ShadedGuardianYT
+      timestamp: 1525651123
+    party: Justice
+  dbe7df28-f1c7-407e-ac72-6543f68e817d:
+    rank: 5
+    name:
+      timestamp: 1525651148
+      name: H2O_Delirious7
+    party: Justice
+  253558db-cbba-420f-a1dd-ed3045d47915:
+    party: Justice
+    name:
+      name: bloodred2002
+      timestamp: 1525651912
     rank: 5
 parties:
   TheTitans:
@@ -410,13 +422,6 @@ parties:
     members:
     - 7e2b5ebc-3ea1-4278-8ca9-1109067f00f4
     leader: 7e2b5ebc-3ea1-4278-8ca9-1109067f00f4
-  XMen:
-    leader: 55679107-589e-4487-abb4-4fca48b26f25
-    members:
-    - 55679107-589e-4487-abb4-4fca48b26f25
-    - 4d2c833f-8b88-4269-887d-3b84a57435c2
-    - f621586e-8ef8-448d-9264-86b61375052e
-    - 4082517f-c021-411b-b302-ccb2d61c84c1
   CHAOS:
     leader: f475c2cf-ebbe-4314-8c6a-7211b32e55ae
     members:
@@ -468,6 +473,13 @@ parties:
     - 2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303
     - cca2ff81-2c4d-4e12-8e21-f23a501e0207
     - 57b29f1f-dc6b-4d30-80ac-cf64c4df3428
+    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
+    - 2a63e405-eecf-480a-9fcf-1e22b996d998
+    - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
+    - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
+    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    - f9e3d8f3-f579-478f-a458-a7efaaf7bcdd
+    - 6370f519-07ce-4448-9666-8e3ba64e85e1
   XFORCE:
     members:
     - ab5533d2-a779-47b4-aa95-2a992bc8f0ce
@@ -476,10 +488,9 @@ parties:
     members:
     - 1d785eb9-a613-430c-a6ee-74a26026e100
     leader: 1d785eb9-a613-430c-a6ee-74a26026e100
-  lol:
-    leader: cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
+  Justice:
     members:
-    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
-    - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
-    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
-    - 2a63e405-eecf-480a-9fcf-1e22b996d998
+    - 9179e43f-3c9a-4a67-a794-24a923b2c72c
+    - dbe7df28-f1c7-407e-ac72-6543f68e817d
+    - 253558db-cbba-420f-a1dd-ed3045d47915
+    leader: 9179e43f-3c9a-4a67-a794-24a923b2c72c
