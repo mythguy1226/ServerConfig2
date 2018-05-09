@@ -8,7 +8,7 @@ soulgrip:
   cast_count: 14
   last_cast: 0
 soulstonetrap:
-  cast_count: 114
+  cast_count: 116
   last_cast: 0
 doorshop:
   cast_count: 0
@@ -68,7 +68,7 @@ reload_hawk_shotgun:
   cast_count: 0
   last_cast: 0
 odinlightning:
-  cast_count: 936
+  cast_count: 937
   last_cast: 0
 fourpoint:
   cast_count: 0
@@ -155,7 +155,7 @@ tocreative:
   cast_count: 0
   last_cast: 0
 sectumsempra:
-  cast_count: 51
+  cast_count: 52
   last_cast: 0
 mine:
   cast_count: 0
@@ -215,7 +215,7 @@ entangle:
   cast_count: 0
   last_cast: 0
 forcefield:
-  cast_count: 1643
+  cast_count: 1682
   last_cast: 0
 glider:
   cast_count: 0
@@ -242,7 +242,7 @@ arrow_blink:
   cast_count: 0
   last_cast: 0
 iceshield:
-  cast_count: 149
+  cast_count: 159
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -263,7 +263,7 @@ vanish:
   cast_count: 0
   last_cast: 0
 rictusempra:
-  cast_count: 83
+  cast_count: 84
   last_cast: 0
 enchantwand:
   cast_count: 0
@@ -275,7 +275,7 @@ forcelightning:
   cast_count: 0
   last_cast: 0
 longpunch:
-  cast_count: 135
+  cast_count: 136
   last_cast: 0
 levitate:
   cast_count: 0
@@ -290,7 +290,7 @@ gather:
   cast_count: 3
   last_cast: 0
 conjuresword:
-  cast_count: 87
+  cast_count: 89
   last_cast: 0
 magictorch:
   cast_count: 0
@@ -308,7 +308,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 259
+  cast_count: 261
   last_cast: 0
 realitystoneblast:
   cast_count: 0
@@ -326,7 +326,7 @@ hydroshield:
   cast_count: 0
   last_cast: 0
 crystaltrap:
-  cast_count: 230
+  cast_count: 231
   last_cast: 0
 emp:
   cast_count: 0
@@ -338,13 +338,13 @@ paste:
   cast_count: 0
   last_cast: 0
 telekinesis:
-  cast_count: 2583
+  cast_count: 2746
   last_cast: 0
 ride:
   cast_count: 0
   last_cast: 0
 wingardiumleviosa:
-  cast_count: 81
+  cast_count: 83
   last_cast: 0
 invisray:
   cast_count: 0
@@ -392,13 +392,13 @@ earthtoss:
   cast_count: 0
   last_cast: 0
 dlocdniwwolb:
-  cast_count: 86
+  cast_count: 94
   last_cast: 0
 accio:
   cast_count: 19
   last_cast: 0
 helabolt:
-  cast_count: 180
+  cast_count: 184
   last_cast: 0
 holylight:
   cast_count: 0
@@ -428,16 +428,16 @@ spsellshop:
   cast_count: 0
   last_cast: 0
 etaercsnoisulli:
-  cast_count: 89
+  cast_count: 97
   last_cast: 0
 tunnel:
   cast_count: 0
   last_cast: 0
 ascendio:
-  cast_count: 372
+  cast_count: 377
   last_cast: 0
 erifnrubnordlaucelbbub:
-  cast_count: 245
+  cast_count: 260
   last_cast: 0
 backup:
   cast_count: 0
@@ -461,7 +461,7 @@ ventus:
   cast_count: 0
   last_cast: 0
 reducto:
-  cast_count: 61
+  cast_count: 63
   last_cast: 0
 upgradeshop:
   cast_count: 0
@@ -497,7 +497,7 @@ fishshop:
   cast_count: 0
   last_cast: 0
 forcespeed:
-  cast_count: 32
+  cast_count: 34
   last_cast: 0
 manipulate:
   cast_count: 33
@@ -512,7 +512,7 @@ tendril:
   cast_count: 0
   last_cast: 0
 tekcajtiarts:
-  cast_count: 122
+  cast_count: 136
   last_cast: 0
 chop:
   cast_count: 0
@@ -524,7 +524,7 @@ animation:
   cast_count: 0
   last_cast: 0
 turnghost:
-  cast_count: 224
+  cast_count: 225
   last_cast: 0
 tosurvival:
   cast_count: 0
@@ -593,7 +593,7 @@ add_fall_protection:
   cast_count: 0
   last_cast: 0
 groundpound:
-  cast_count: 9
+  cast_count: 11
   last_cast: 0
 camera:
   cast_count: 0
@@ -635,7 +635,7 @@ superdome:
   cast_count: 0
   last_cast: 0
 meteorshower:
-  cast_count: 925
+  cast_count: 927
   last_cast: 0
 peek:
   cast_count: 0
@@ -692,7 +692,7 @@ birth_snake:
   cast_count: 0
   last_cast: 0
 antimatterray:
-  cast_count: 68
+  cast_count: 69
   last_cast: 0
 hunter_death:
   cast_count: 0
@@ -740,7 +740,7 @@ freezeray:
   cast_count: 309
   last_cast: 0
 stungrenade:
-  cast_count: 204
+  cast_count: 208
   last_cast: 0
 deposits:
   cast_count: 0
@@ -758,16 +758,16 @@ abratrap:
   cast_count: 315
   last_cast: 0
 freezetime:
-  cast_count: 787
+  cast_count: 793
   last_cast: 0
 glasstouch:
-  cast_count: 449
+  cast_count: 468
   last_cast: 0
 airscooter:
   cast_count: 0
   last_cast: 0
 stupefy:
-  cast_count: 169
+  cast_count: 170
   last_cast: 0
 tweakshop:
   cast_count: 0
@@ -1001,7 +1001,7 @@ crucio:
   cast_count: 102
   last_cast: 0
 tsunami:
-  cast_count: 100
+  cast_count: 102
   last_cast: 0
 earthsmash:
   cast_count: 0
@@ -1097,7 +1097,7 @@ airglider:
   cast_count: 0
   last_cast: 0
 jokerfloweracid:
-  cast_count: 117
+  cast_count: 118
   last_cast: 0
 smite:
   cast_count: 0
@@ -1190,7 +1190,7 @@ itemshop:
   cast_count: 0
   last_cast: 0
 sunbeam:
-  cast_count: 165
+  cast_count: 168
   last_cast: 0
 recurse:
   cast_count: 0
@@ -1229,7 +1229,7 @@ lumos:
   cast_count: 0
   last_cast: 0
 blind:
-  cast_count: 65
+  cast_count: 67
   last_cast: 0
 boon:
   cast_count: 0
@@ -1274,7 +1274,7 @@ lava:
   cast_count: 0
   last_cast: 0
 protego:
-  cast_count: 626
+  cast_count: 629
   last_cast: 0
 icbm:
   cast_count: 0
@@ -1292,7 +1292,7 @@ nox:
   cast_count: 0
   last_cast: 0
 incendio:
-  cast_count: 222
+  cast_count: 224
   last_cast: 0
 vulnera:
   cast_count: 0
@@ -1307,7 +1307,7 @@ expelliarmus:
   cast_count: 39
   last_cast: 0
 emoksemocebadlofdnilb:
-  cast_count: 72
+  cast_count: 82
   last_cast: 0
 polymorph:
   cast_count: 0
@@ -1364,13 +1364,13 @@ colorshop:
   cast_count: 0
   last_cast: 0
 cosmicbolt:
-  cast_count: 3406
+  cast_count: 3498
   last_cast: 0
 potionshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 245
+  cast_count: 252
   last_cast: 0
 wither:
   cast_count: 0
@@ -1451,7 +1451,7 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 2571
+  cast_count: 2588
   last_cast: 0
 ravenfield:
   cast_count: 146
@@ -1472,7 +1472,7 @@ breathofwind:
   cast_count: 0
   last_cast: 0
 moltenbolt:
-  cast_count: 130
+  cast_count: 131
   last_cast: 0
 shotgun:
   cast_count: 0
@@ -1553,7 +1553,7 @@ broomshop:
   cast_count: 0
   last_cast: 0
 turnwater:
-  cast_count: 230
+  cast_count: 232
   last_cast: 0
 bogies:
   cast_count: 0
@@ -1586,7 +1586,7 @@ tornado:
   cast_count: 0
   last_cast: 0
 crystalshield:
-  cast_count: 189
+  cast_count: 190
   last_cast: 0
 fury:
   cast_count: 0
@@ -1625,7 +1625,7 @@ electrictp:
   cast_count: 313
   last_cast: 0
 soulstoneblast:
-  cast_count: 48
+  cast_count: 49
   last_cast: 0
 note09:
   cast_count: 0
@@ -1658,7 +1658,7 @@ phoenixforce:
   cast_count: 40
   last_cast: 0
 increaseage:
-  cast_count: 36
+  cast_count: 37
   last_cast: 0
 tripudio:
   cast_count: 0
@@ -1751,7 +1751,7 @@ nobabies:
   cast_count: 0
   last_cast: 0
 forcegrip:
-  cast_count: 85
+  cast_count: 89
   last_cast: 0
 ollivander:
   cast_count: 0
@@ -1760,13 +1760,13 @@ stonegrasp:
   cast_count: 0
   last_cast: 0
 forcepush:
-  cast_count: 408
+  cast_count: 409
   last_cast: 0
 backflip:
   cast_count: 0
   last_cast: 0
 firebolt:
-  cast_count: 423
+  cast_count: 426
   last_cast: 0
 tree:
   cast_count: 0
@@ -1814,7 +1814,7 @@ diffindo:
   cast_count: 0
   last_cast: 0
 deadlights:
-  cast_count: 48
+  cast_count: 49
   last_cast: 0
 note21:
   cast_count: 0
@@ -1823,7 +1823,7 @@ note20:
   cast_count: 0
   last_cast: 0
 destroyerblast:
-  cast_count: 405
+  cast_count: 406
   last_cast: 0
 thruster:
   cast_count: 0
@@ -1925,10 +1925,10 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1159
+  cast_count: 1210
   last_cast: 0
 mach5punch:
-  cast_count: 128
+  cast_count: 131
   last_cast: 0
 alohomora:
   cast_count: 0

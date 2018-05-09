@@ -64,16 +64,6 @@ ad118888-504e-4618-a81d-65703f567716:
     style="color:white"><span style="color:gray">Lasts for 10 seconds</span></span><br/><span
     style="color:white"><span style="color:yellow">Consumes 100 Mana</span></span></div>'
   owner: ''
-e9f66534-9d51-4156-a346-b4b11e77a69f:
-  location: 26.201494223209615,25.0,99.64022072327069,survival112_nether,210.55988,0.0
-  name: Flower Acid
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">Flower Acid</span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">8
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
-    style="color:white"><span style="color:gray">Lasts for 7 seconds</span></span></div>'
-  owner: ''
 32ea9607-8020-485c-a6e8-9a4f9ad65316:
   location: -337.454858760948,113.0,-256.66011542015946,helicarrier,64.73204,0.0
   name: Freeze Time

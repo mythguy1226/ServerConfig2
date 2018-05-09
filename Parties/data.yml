@@ -326,18 +326,6 @@ players:
       name: Oranges_are_glad
     rank: 5
     party: The
-  433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
-    rank: 5
-    party: The
-    name:
-      name: AntiSepticEye1
-      timestamp: 1525481673
-  0e88e52e-2945-464e-b4ba-e1e162c6786d:
-    rank: 5
-    name:
-      timestamp: 1525483222
-      name: Miner_Myles
-    party: The
   f9e3d8f3-f579-478f-a458-a7efaaf7bcdd:
     name:
       timestamp: 1525483262
@@ -368,6 +356,18 @@ players:
       name: bloodred2002
       timestamp: 1525651912
     rank: 5
+  0e88e52e-2945-464e-b4ba-e1e162c6786d:
+    rank: 5
+    name:
+      timestamp: 1525741378
+      name: Miner_Myles
+    party: The
+  433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
+    rank: 5
+    party: The
+    name:
+      name: AntiSepticEye1
+      timestamp: 1525741696
 parties:
   TheTitans:
     members:
@@ -476,10 +476,10 @@ parties:
     - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
     - 2a63e405-eecf-480a-9fcf-1e22b996d998
     - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
-    - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
-    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
     - f9e3d8f3-f579-478f-a458-a7efaaf7bcdd
     - 6370f519-07ce-4448-9666-8e3ba64e85e1
+    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
   XFORCE:
     members:
     - ab5533d2-a779-47b4-aa95-2a992bc8f0ce
