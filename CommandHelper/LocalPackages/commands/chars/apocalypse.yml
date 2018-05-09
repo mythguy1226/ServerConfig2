@@ -13,6 +13,7 @@ effects:
 haste: 4
 items:
 - /give <plr> minecraft:iron_boots 1 8:30 4:30 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
+-/shot give <plr> plasmacannon
 jump: 3
 maxHearts: 50
 permissions:
