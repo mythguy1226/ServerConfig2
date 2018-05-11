@@ -462,6 +462,8 @@ engineer:
   - place
   - tree
   - supertorch
+  - raise
+  - flatten
   - brushselect
   material_count:
     '2': 100

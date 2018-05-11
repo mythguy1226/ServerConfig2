@@ -1217,9 +1217,14 @@ appearanceshop:
     - item: appearance_engineer
       requirements:
       - path: engineer
+    - item: appearance_architect
+      requirements:
+      - path: architect
     - item: appearance_conduit
       requirements:
       - path: conduit
+    - item: none
+    - item: none
     - item: none
     - item: appearance_moon
       unlock: moon
@@ -1247,14 +1252,19 @@ architectshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
-    path_end: engineer
-    auto_upgrade: true
-    use_sp: true
+    requirements:
+    - path_end: engineer
+    apply_to_caster: true
     confirm_filler: stained_glass:9
+    confirm: true
     spells:
+    - none
+    - none
+    - none
+    - none
     - absorb
 arrow:
   icon: diamond_axe:57
@@ -2065,13 +2075,8 @@ automatashop:
   icon: command
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: sellshop
   parameters:
-    quiet: true
-    auto_close: false
-    sell: true
     items:
       wand|snakeheart: 300
       wand|hunterheart: 500
@@ -2184,15 +2189,8 @@ deposits:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: sellshop
   parameters:
-    sell: true
-    quiet: true
-    confirm: false
-    use_items: false
-    auto_close: false
     items:
     - gold_nugget
     - gold_ingot
@@ -2212,14 +2210,8 @@ withdrawals:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: false
-    use_items: false
-    auto_close: false
     items:
     - gold_nugget
     - gold_ingot
@@ -2239,14 +2231,9 @@ ledgershop:
   icon: paper
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    use_items: false
-    confirm_filler: stained_glass_pane
     items:
       wand|ledger: 2
 blast:
@@ -2795,12 +2782,8 @@ bookshop:
   icon: book
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: false
     items:
     - item: book|combat
     - item: book|master
@@ -2812,6 +2795,7 @@ bookshop:
     - item: book|elemental
     - item: book|mining
     - item: book|electrical
+    quiet: true
 boom:
   icon: diamond_axe:35
   icon_disabled: diamond_hoe:35
@@ -3340,13 +3324,10 @@ broomshop:
   icon: gold_spade
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
+    auto_close: true
     confirm: true
-    confirm_filler: stained_glass:3
     items:
     - item: wand|crackedbroomstick
       cost: 100
@@ -3434,9 +3415,10 @@ buyshop:
     cast:
     - class: ItemShop
   parameters:
-    quiet: true
     confirm: false
     auto_close: false
+    confirm_filler: stained_glass_pane
+    quiet: true
     use_items: false
 cage:
   icon: diamond_axe:157
@@ -3956,6 +3938,7 @@ colorshop:
     - holding_wand: true
     cost_type: sp
     unlock_section: wand_colors
+    show_unavailable: true
     apply_to_wand: true
     options:
     - item: redeffects
@@ -4002,7 +3985,7 @@ colorshop:
       unlock: lightgray
     - item: browneffects
       cost: 200
-      unlock: grown
+      unlock: brown
     - item: darkgreeneffects
       cost: 200
       unlock: darkgreen
@@ -4065,14 +4048,19 @@ conduitshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
-    path_end: architect
-    auto_upgrade: true
-    use_sp: true
+    requirements:
+    - path_end: architect
+    apply_to_caster: true
     confirm_filler: stained_glass:9
+    confirm: true
     spells:
+    - none
+    - none
+    - none
+    - none
     - backup
 controlsmenu:
   icon: diamond_axe:214
@@ -5215,6 +5203,7 @@ effectshop:
     - holding_wand: true
     unlock_section: wand_effects
     apply_to_wand: true
+    show_unavailable: true
     cost_type: sp
     options:
     - item: bubbleeffects
@@ -5237,14 +5226,9 @@ emeraldshop:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: true
-    use_xp: true
-    confirm_filler: stained_glass:5
+    cost_type: xp
     items:
       emerald: 500
 emp:
@@ -5324,14 +5308,19 @@ engineershop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
-    path_end: master
-    auto_upgrade: true
-    use_sp: true
+    requirements:
+    - path_end: master
+    apply_to_caster: true
     confirm_filler: stained_glass:2
+    confirm: true
     spells:
+    - none
+    - none
+    - none
+    - none
     - rollback
 entangle:
   icon: diamond_axe:177
@@ -5503,6 +5492,15 @@ familiar:
           class: AtomEffect
           particle_nucleus: drip_water
           particle_orbital: drip_water
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 1000
+        particle_count: 20
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     entity_types:
       chicken: 30
@@ -5565,6 +5563,15 @@ farm:
           class: AtomEffect
           particle_nucleus: drip_water
           particle_orbital: drip_water
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 500
+        particle_count: 10
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     target_type: LivingEntity
     allow_max_range: false
@@ -5897,25 +5904,25 @@ flashbang:
           - class: PlaySound
             sound: magic.ringing
             volume: 0.7
-            range: 0
+            radius: 0
           - class: Delay
             delay: 700
         - class: PlaySound
           sound: magic.ringing
           volume: 0.5
-          range: 0
+          radius: 0
         - class: Delay
           delay: 700
         - class: PlaySound
           sound: magic.ringing
           volume: 0.2
-          range: 0
+          radius: 0
         - class: Delay
           delay: 700
         - class: PlaySound
           sound: magic.ringing
           volume: 0.1
-          range: 0
+          radius: 0
   effects:
     cast:
     - class: EffectSingle
@@ -5981,6 +5988,55 @@ flashbang:
     reflective: solid
     gravity: 0.05
     hit_on_miss: true
+  costs:
+    mana: 50
+flatten:
+  icon: diamond_axe:88
+  icon_disabled: diamond_hoe:88
+  icon_url: http://textures.minecraft.net/texture/8a37d68a64b72c169586e55e885784f61ba6ca62246b5dff877656c6c2f657e
+  category: engineering
+  tags: noduel
+  worth: 1000
+  earns_sp: 10
+  actions:
+    cast:
+    - class: Disc
+      actions:
+      - class: Cover
+        actions:
+        - class: LowerBlocks
+        - class: PlayEffects
+          effects: lower
+  effects:
+    cast:
+    - sound: block_stone_break
+      location: origin
+    - class: EffectTrail
+      reverse: true
+      particle: block_crack
+      particle_count: 4
+      material: dirt
+    lower:
+    - location: target
+      particle: block_crack
+      particle_count: 10
+      particle_offset_x: 0.5
+      particle_offset_y: 5
+      particle_offset_z: 0.5
+  parameters:
+    range: 32
+    radius: 16
+    vertical_range: 32
+    faces:
+    - down
+    - north
+    - north_east
+    - east
+    - south_east
+    - south
+    - south_west
+    - west
+    - north_west
   costs:
     mana: 50
 fling:
@@ -6090,9 +6146,13 @@ floodfill:
     faces:
     - down
     - north
+    - north_east
     - east
+    - south_east
     - south
+    - south_west
     - west
+    - north_west
   costs:
     mana: 200
 force:
@@ -7161,6 +7221,15 @@ ghast:
         particle: drip_lava
         radius: 2
         particles: 20
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 1000
+        particle_count: 40
+        particle_offset_x: 1.5
+        particle_offset_y: 1.5
+        particle_offset_z: 1.5
   parameters:
     target: block
     type: ghast
@@ -8177,13 +8246,9 @@ itemshop:
   icon: carrot
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
     items:
     - item: carrot_item@64
       cost: 100
@@ -9096,13 +9161,10 @@ magicitemshop:
   icon: ender_portal_frame
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
+    auto_close: true
     items:
     - item: wand|ocarina
       cost: 100
@@ -9607,6 +9669,15 @@ mob:
           class: AtomEffect
           particle_nucleus: drip_lava
           particle_orbital: drip_lava
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 500
+        particle_count: 10
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     entity_types:
       zombie: 100
@@ -9685,6 +9756,15 @@ monster:
           class: AtomEffect
           particle_nucleus: drip_lava
           particle_orbital: drip_lava
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 1000
+        particle_count: 20
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     target_type: LivingEntity
     allow_max_range: false
@@ -10723,7 +10803,6 @@ pillar:
   tags: noduel
   worth: 1000
   earns_sp: 10
-  consume: true
   actions:
     cast:
     - class: BlockSearch
@@ -11650,6 +11729,63 @@ rainbow:
     center_z: false
   costs:
     mana: 100
+raise:
+  icon: diamond_axe:88
+  icon_disabled: diamond_hoe:88
+  icon_url: http://textures.minecraft.net/texture/8a37d68a64b72c169586e55e885784f61ba6ca62246b5dff877656c6c2f657e
+  example_thumbnail: https://thumbs.gfycat.com/ClassicUnhappyElephantbeetle-size_restricted.gif
+  example_link: https://gfycat.com/gifs/detail/ClassicUnhappyElephantbeetle
+  category: engineering
+  tags: noduel
+  worth: 1000
+  earns_sp: 10
+  actions:
+    cast:
+    - class: Disc
+      actions:
+      - class: Cover
+        actions:
+        - class: RaiseBlocks
+        - class: PlayEffects
+          effects: raise
+  effects:
+    cast:
+    - sound: block_stone_break
+      location: origin
+    - class: EffectTrail
+      particle: block_crack
+      particle_count: 4
+      material: dirt
+    raise:
+    - location: target
+      particle: block_crack
+      particle_count: 10
+      particle_offset_x: 0.5
+      particle_offset_y: 5
+      particle_offset_z: 0.5
+  parameters:
+    range: 32
+    radius: 16
+    vertical_range: 32
+    consume: true
+    destructible: '!earth'
+    transparent: '!earth'
+    slopes:
+      '1': 100
+      '2': 50
+      '3': 5
+    faces:
+    - down
+    - north
+    - north_east
+    - east
+    - south_east
+    - south
+    - south_west
+    - west
+    - north_west
+  costs:
+    mana: 50
 randomtp:
   icon: diamond_axe:201
   icon_disabled: diamond_hoe:201
@@ -12437,11 +12573,12 @@ sellshop:
     cast:
     - class: ItemShop
   parameters:
-    quiet: true
     confirm: false
     auto_close: false
-    use_items: false
+    confirm_filler: stained_glass_pane
     sell: true
+    quiet: true
+    use_items: false
 shell:
   icon: diamond_axe:22
   icon_disabled: diamond_hoe:22
@@ -12976,14 +13113,9 @@ potionshop:
   icon: potion
   category: shop
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
-    use_items: false
     items:
     - potion_splash_swiftness_long
 brushshop:
@@ -13051,9 +13183,6 @@ appraiser:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
   parameters:
     scale: 0.9
     items:
@@ -13688,13 +13817,15 @@ spellshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
+    show_path_spells: true
+    show_extra_spells: true
+    apply_to_caster: true
+    confirm: true
+    auto_close: true
     confirm_filler: stained_glass:5
-    auto_upgrade: true
-    upgrade_levels: 1
-    use_sp: true
   enabled: true
 sphere:
   icon: diamond_axe:127
@@ -15053,15 +15184,11 @@ testspellshop:
   icon: iron_hoe
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: SpellShop
+  inherit: spellshop
   parameters:
-    quiet: true
     confirm: false
     auto_close: false
-    auto_upgrade: true
-    use_sp: true
+    scale: 0
 throwsword:
   icon: diamond_sword
   actions:
@@ -15381,13 +15508,18 @@ tpshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Selector
   parameters:
     quiet: true
     confirm_filler: stained_glass:5
-    cast_spells: true
-    spells:
-      randomtp: 1
+    confirm: true
+    options:
+    - item: none
+    - item: none
+    - item: none
+    - item: none
+    - cast_spell: randomtp
+      cost: 1
 tracking:
   icon: diamond_axe:189
   icon_disabled: diamond_hoe:189
@@ -15550,13 +15682,11 @@ tweakshop:
   icon_url: http://textures.minecraft.net/texture/f6d6ac2ee323f6497c6e2663a7e56ed9523567b68d18a17f8f39736b06ac3cd
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: false
-    require_wand: true
+    requirements:
+    - holding_wand: true
+    apply_to_wand: true
     items:
     - wand|inventorymode
     - wand|chestmode
@@ -15596,14 +15726,14 @@ upgradeshop:
   icon: gold_axe
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
     quiet: true
     confirm_filler: stained_glass:2
     confirm: true
-    require_wand: true
+    requirements:
+    - holding_wand: true
+    apply_to_wand: true
     items:
     - item: wand|antihunger
       cost: 2000
@@ -16142,13 +16272,10 @@ wandshop:
   icon: wooden_hoe
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
+    auto_close: true
     items:
     - item: wand|default
       cost: 3000
@@ -20083,11 +20210,10 @@ ollivander:
   parameters:
     put_in_hand: false
     auto_close: true
-    worth_item: ticket
-    use_items: true
     items:
     - item: wand:wandbox
-      cost: 1
+      costs:
+        ticket: 1
     loud: true
 ticketshop:
   inherit: buyshop
@@ -20168,6 +20294,25 @@ patronus:
     hitbox: true
   costs:
     mana: 130
+potterbroomshop:
+  icon: gold_spade
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    confirm: true
+    auto_close: true
+    items:
+    - item: wand|firebolt
+      cost: 10000
+    - item: wand|nimbus
+      cost: 5000
+    - item: wand|comet290
+      cost: 1000
+    - item: wand|cleansweep1
+      cost: 500
+    - item: wand|bluebottle
+      cost: 100
 potterappearanceshop:
   icon: wood_hoe
   hidden: true
@@ -22158,19 +22303,15 @@ bendingshop:
   parameters:
     options:
     - unlock_class: airbender
-      item: airstaff
       cost: 5000
       icon: wood_hoe:34
     - unlock_class: waterbender
-      item: airbending
       cost: 5000
       icon: wood_hoe:20
     - unlock_class: earthbender
-      item: earthbending
       cost: 5000
       icon: wood_hoe:21
     - unlock_class: firebender
-      item: firebending
       cost: 5000
       icon: wood_hoe:22
     selected: Became $name for $cost

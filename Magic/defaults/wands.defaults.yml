@@ -108,8 +108,8 @@ appearance_engineer:
   upgrade_icon: wood_hoe:5
 appearance_architect:
   upgrade: true
-  icon: wood_hoe:5
-  upgrade_icon: wood_hoe:5
+  icon: wood_hoe:39
+  upgrade_icon: wood_hoe:39
 appearance_conduit:
   upgrade: true
   icon: wood_hoe:6
@@ -2852,6 +2852,7 @@ base_bending:
   drop: none
   quiet: 1
   effect_bubbles: false
+  limit_spells_to_path: true
 airbending:
   inherit: base_bending
   class: airbender
@@ -2887,6 +2888,7 @@ firebending:
 avatar:
   class: avatar
   inherit: base_bending
+  limit_spells_to_path: false
   icon: wood_hoe:23
   migrate_icon: wood_hoe
   power: 0.5

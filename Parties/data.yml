@@ -368,6 +368,12 @@ players:
     name:
       name: AntiSepticEye1
       timestamp: 1525741696
+  55679107-589e-4487-abb4-4fca48b26f25:
+    name:
+      name: AgentNuggets
+      timestamp: 1526000424
+    rank: 5
+    party: The
 parties:
   TheTitans:
     members:
@@ -480,6 +486,7 @@ parties:
     - 6370f519-07ce-4448-9666-8e3ba64e85e1
     - 0e88e52e-2945-464e-b4ba-e1e162c6786d
     - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
+    - 55679107-589e-4487-abb4-4fca48b26f25
   XFORCE:
     members:
     - ab5533d2-a779-47b4-aa95-2a992bc8f0ce
