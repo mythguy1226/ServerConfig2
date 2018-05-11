@@ -1,0 +1,4 @@
+plasmacannon:
+    Shoot:
+        Trails:
+            Trail: "PurpleLaser"
