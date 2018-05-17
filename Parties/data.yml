@@ -308,12 +308,6 @@ players:
       timestamp: 1524603362
     party: Royal
     rank: 20
-  cc41c2d9-5ef0-4a02-953d-cfb7c0b155be:
-    rank: 10
-    name:
-      timestamp: 1525467027
-      name: darkstumper
-    party: The
   2a63e405-eecf-480a-9fcf-1e22b996d998:
     party: The
     name:
@@ -332,12 +326,6 @@ players:
       name: SantaClad
     rank: 5
     party: The
-  6370f519-07ce-4448-9666-8e3ba64e85e1:
-    name:
-      timestamp: 1525638596
-      name: StevonnieQuartz
-    party: The
-    rank: 5
   9179e43f-3c9a-4a67-a794-24a923b2c72c:
     rank: 20
     name:
@@ -356,24 +344,30 @@ players:
       name: bloodred2002
       timestamp: 1525651912
     rank: 5
+  55679107-589e-4487-abb4-4fca48b26f25:
+    name:
+      name: WoahSkyy
+      timestamp: 1526511827
+    rank: 20
+    party: Hai
   0e88e52e-2945-464e-b4ba-e1e162c6786d:
     rank: 5
     name:
-      timestamp: 1525741378
+      timestamp: 1526079560
       name: Miner_Myles
     party: The
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
-    rank: 5
-    party: The
+    rank: 20
+    party: mix
     name:
       name: AntiSepticEye1
-      timestamp: 1525741696
-  55679107-589e-4487-abb4-4fca48b26f25:
-    name:
-      name: AgentNuggets
-      timestamp: 1526000424
+      timestamp: 1526176838
+  cc41c2d9-5ef0-4a02-953d-cfb7c0b155be:
     rank: 5
-    party: The
+    name:
+      timestamp: 1526176865
+      name: darkstumper
+    party: mix
 parties:
   TheTitans:
     members:
@@ -479,14 +473,10 @@ parties:
     - 2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303
     - cca2ff81-2c4d-4e12-8e21-f23a501e0207
     - 57b29f1f-dc6b-4d30-80ac-cf64c4df3428
-    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
     - 2a63e405-eecf-480a-9fcf-1e22b996d998
     - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
     - f9e3d8f3-f579-478f-a458-a7efaaf7bcdd
-    - 6370f519-07ce-4448-9666-8e3ba64e85e1
     - 0e88e52e-2945-464e-b4ba-e1e162c6786d
-    - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
-    - 55679107-589e-4487-abb4-4fca48b26f25
   XFORCE:
     members:
     - ab5533d2-a779-47b4-aa95-2a992bc8f0ce
@@ -501,3 +491,12 @@ parties:
     - dbe7df28-f1c7-407e-ac72-6543f68e817d
     - 253558db-cbba-420f-a1dd-ed3045d47915
     leader: 9179e43f-3c9a-4a67-a794-24a923b2c72c
+  Hai:
+    members:
+    - 55679107-589e-4487-abb4-4fca48b26f25
+    leader: 55679107-589e-4487-abb4-4fca48b26f25
+  mix:
+    members:
+    - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
+    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
+    leader: 433a0d8e-aa8a-42ae-bc54-f4456bf366c0

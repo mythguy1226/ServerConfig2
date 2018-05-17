@@ -62,12 +62,6 @@ e9027199-6dc7-4103-a737-eaebaddccd25:
     seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
     style="color:blue">Range: <span style="color:gold">64 <span style="color:blue">meters</span></span></span></span></span></div>'
   owner: ''
-2378b925-9f7c-4c21-840e-5b376f88e043:
-  location: 87.3669221898831,22.0,86.22346116669033,survival112_nether,259.03183,0.0
-  name: Rocket Launcher
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">Rocket Launcher</span></span></h2></div>'
-  owner: ''
 174a7933-6f92-468b-b079-73a99ddd1bbc:
   location: -26.5,64.0,688.5,waynemanor,260.1255,0.0
   name: Lasso Pull
@@ -133,12 +127,6 @@ ad118888-504e-4618-a81d-65703f567716:
   name: Pistol
   description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
     style="color:white"><span style="color:darkaqua">Pistol</span></span></h2></div>'
-  owner: ''
-c8e4c246-df20-4f0b-a9b6-e06103ae7e9a:
-  location: 76.91109856831719,25.0,104.14300580692279,survival112_nether,189.00609,0.0
-  name: Rocket Launcher
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">Rocket Launcher</span></span></h2></div>'
   owner: ''
 0f8c3054-7a6b-4fbd-9073-69831aac12a1:
   location: 1723.9734101291433,95.414927693183,1699.6915231754672,survival112,215.47742,0.0

@@ -14,15 +14,15 @@ costs:
   mana_amount: $amount Mana
   mana: Mana
   xp: XP
-  levels: XP Levels
+  levels: Levels
   sp: Spell Points
   hunger: Energy
   health: Health
   health_amount: $amount Health
   hunger_amount: $amount Energy
   heroes_mana: $amount Mana
-  currency: Dollar
-  currency_plural: Dollars
+  currency_singular: Dollar
+  currency: Dollars
   currency_amount: $$amount
 currency:
   item_name: '&e$amount &6$type'
@@ -185,7 +185,7 @@ requirements:
   no_class: '&cYou must be a $class'
   no_required_path: '&cYou must be at least $path!'
   no_path_exact: '&cYou must be at $path!'
-  no_path_end: Y&cou must be ready to advance from $path!
+  no_path_end: '&cYou must be ready to advance from $path!'
 shops:
   no_wand: '&cYou must be holding a wand!'
   no_template: '&cYou may not learn with that $wand&c.'
@@ -1935,6 +1935,12 @@ spells:
   vanish:
     name: Vanish
     description: Make yourself completely invisible to other players.
+  ledger:
+    name: Ledger
+    title: Ledger
+    header: '&2&lBalances'
+    currency_prefix: '&7&l'
+    value_prefix: '&0'
   accio:
     name: Accio
     description: Summons an object to you
@@ -2354,8 +2360,6 @@ spells:
     description: Make your target bouncy
     cast: Spongify Maxima!
   ollivander:
-    cast: You exchanged $requires for $item
-    insufficient_resources: You must have $requires
     title: Ollivander
   radar:
     name: RADAR
@@ -2758,6 +2762,9 @@ wand:
   sp_instructions: '&r&6You have earned some Spell Points! SP''s are displayed above
     your mana bar, and may be spent at an enchanting table to learn new spells. Repeat
     casts earn fewer SP''s, try mixing it up once you have more spells!'
+  earn_instructions: '&r&6You have earned some $currency! This is displayed above
+    your mana bar, and may be spent at an enchanting table to learn new spells. Repeat
+    casts earn less, try mixing it up once you have more spells!'
   hotbar_changed: ''
   spell_activated: $spell
   upgrade_prefix: '&6'
@@ -2768,6 +2775,7 @@ wand:
   unmodifiable_prefix: '&6'
   spell_prefix: '&6'
   brush_prefix: '&7'
+  chest_inventory_title: Wand
 wands:
   testwand:
     name: Test Wand

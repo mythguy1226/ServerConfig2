@@ -824,6 +824,14 @@ OptionsCommands:
     - searchitem
     usage: <query>
     desc: Search for an item
+  /gtexture:
+    help: The global destination mask applies to all edits you do and masks based
+      on the destination blocks (i.e. the blocks in the world).
+    aliases:
+    - /gtexture
+    - gtexture
+    usage: '[mask|#clipboard|complexity] [randomization=true]'
+    desc: Set the global mask
 GenerationCommands:
   /ore:
     help: Generates ores
@@ -2292,6 +2300,16 @@ BrushCommands:
     - cmd
     usage: <radius> [cmd1;cmd2...]
     desc: Command brush
+  image:
+    help: |-
+      Use a height map to paint any surface.
+      The -a flag will use image alpha
+      The -f blends the image with the existing terrain
+    aliases:
+    - image
+    - color
+    usage: <radius> <image> [yscale=1]
+    desc: Use a height map to paint a surface
 SuperPickaxeCommands:
   area:
     help: ''
