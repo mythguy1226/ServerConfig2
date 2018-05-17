@@ -23,7 +23,7 @@ music:
   cast_count: 0
   last_cast: 0
 abrawarp:
-  cast_count: 411
+  cast_count: 412
   last_cast: 0
 projector:
   cast_count: 0
@@ -338,7 +338,7 @@ paste:
   cast_count: 0
   last_cast: 0
 telekinesis:
-  cast_count: 2980
+  cast_count: 2993
   last_cast: 0
 ride:
   cast_count: 0
@@ -761,7 +761,7 @@ superblob:
   cast_count: 0
   last_cast: 0
 abratrap:
-  cast_count: 316
+  cast_count: 317
   last_cast: 0
 freezetime:
   cast_count: 830
@@ -1370,13 +1370,13 @@ colorshop:
   cast_count: 0
   last_cast: 0
 cosmicbolt:
-  cast_count: 3643
+  cast_count: 3647
   last_cast: 0
 potionshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 278
+  cast_count: 281
   last_cast: 0
 wither:
   cast_count: 0
@@ -1934,7 +1934,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1285
+  cast_count: 1291
   last_cast: 0
 mach5punch:
   cast_count: 133
