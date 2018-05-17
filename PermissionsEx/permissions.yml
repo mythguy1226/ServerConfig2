@@ -10446,30 +10446,6 @@ groups:
       superherocity:
         permissions:
         - powers.herotransform
-  odin:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&b'
-      prefix: '&6O&ed&bi&7n'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.destroyworld
-        - essentials.fly
-        - ch.alias.mindlock
-        - ch.alias.yell
-        - headdb.free.*
-        - headdb.category.*
-        - headdb.open
-        - ch.alias.create
-        - essentials.enchant
-        - -essentials.enchantments.allowunsafe
-        - essentials.enchantments.*
-        - powers.depower
-        - ch.alias.normalform
-        - ch.alias.grow
-        - ch.alias.tp
   flashbarryallen:
     inheritance:
     - commonherotraits
@@ -10515,6 +10491,30 @@ groups:
         - ch.alias.tangible
         - ch.alias.intangible
         - essentials.fly
+  odin:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&b'
+      prefix: '&6O&ed&bi&7n'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.destroyworld
+        - essentials.fly
+        - ch.alias.mindlock
+        - ch.alias.yell
+        - headdb.free.*
+        - headdb.category.*
+        - headdb.open
+        - ch.alias.create
+        - essentials.enchant
+        - -essentials.enchantments.allowunsafe
+        - essentials.enchantments.*
+        - powers.depower
+        - ch.alias.normalform
+        - ch.alias.grow
+        - ch.alias.tp
 schema-version: 1
 worlds:
   checkers:
@@ -10891,7 +10891,7 @@ users:
       name: Adekin
   fa2821a9-27ed-43e0-99f6-e22aec572a35:
     group:
-    - mortal
+    - odin
     options:
       name: Atelophia
   2a63e405-eecf-480a-9fcf-1e22b996d998:
@@ -15181,3 +15181,5 @@ users:
   e9277ca1-b2dc-43e3-a1bc-a38467bad62d:
     group:
     - batmite
+    options:
+      name: Nightwolf705
