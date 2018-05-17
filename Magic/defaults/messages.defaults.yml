@@ -183,17 +183,17 @@ requirements:
   no_template: '&cYou may not learn with that $wand&c.'
   no_path: '&cYou may not learn here.'
   no_class: '&cYou must be a $class'
-  no_required_path: '&cYou must be at least $path!'
-  no_path_exact: '&cYou must be at $path!'
-  no_path_end: '&cYou must be ready to advance from $path!'
+  no_required_path: '&cYou must be at least $path&r!'
+  no_path_exact: '&cYou must be at $path&r!'
+  no_path_end: '&cYou must be ready to advance from $path&r!'
 shops:
   no_wand: '&cYou must be holding a wand!'
   no_template: '&cYou may not learn with that $wand&c.'
   no_path: '&cYou may not learn here.'
   no_class: '&cYou must be a $class'
-  no_required_path: '&cYou must be at least $path!'
-  no_path_exact: '&cYou must be at $path!'
-  no_path_end: '&cYou must be ready to advance from $path!'
+  no_required_path: '&cYou must be at least $path&r!'
+  no_path_exact: '&cYou must be at $path&r!'
+  no_path_end: '&cYou must be ready to advance from $path&r!'
   insufficient: '&cCosts $cost'
   confirm_title: Buy $item
   unlock_confirm_title: Unlock $item
@@ -238,8 +238,8 @@ spell:
   brush: Uses Material Brushes
   undoable: ''
   not_undoable: '&4Not Undoable'
-  available_path: Available at the $path level
-  required_path: Required to complete the $path level
+  available_path: Available at the $path &rlevel
+  required_path: Required to complete the $path &rlevel
   levels_available: 'Max Level: &r&5$levels'
   required_spell: You must learn &r&4$spell &d&oto advance to &b$path
   prerequisite_spell_level: '&cYou must know &6Level $level $name'
@@ -1610,8 +1610,8 @@ spells:
     name: Add Spell
     description: Add a spell to your wand
     no_upgrade: You may not learn with that $wand.
-    no_path: You must be at least $path!
-    no_path_end: You must be ready to advance from $path!
+    no_path: You must be at least $path&r!
+    no_path_end: You must be ready to advance from $path&r!
     no_wand: You must be holding a wand!
     no_target: You already know that spell
     fail: ''
@@ -1628,18 +1628,18 @@ spells:
     fail: ''
   spellshop:
     name: Learn Spells
-    title: $path Spells ($balance&0)
+    title: $path &rSpells ($balance&0)
     description: |-
       Spend Spell Points to learn new spells.
       When you have learned all the required spells on your current path, you will rank up to the next path!
     no_items: There are no spells for you to buy here
     no_path: You may not learn here.
     no_upgrade: There is nothing more for you here.
-    no_required_path: You must be at least $path!
-    no_path_end: You must be ready to advance from $path!
+    no_required_path: You must be at least $path&r!
+    no_path_end: You must be ready to advance from $path&r!
     no_wand: You must be holding a wand!
     confirm_title: Learn $item
-    selected: '&d&oYou learned &r&6$item &r&d&ofor &r&a$cost'
+    selected: "t:&d&oYou learned \n&r&6$item\na:&r&d&o-&r&a$cost"
     fail: ''
   engineershop:
     name: Engineer Shop
@@ -2782,10 +2782,10 @@ wands:
     description: An empty wand to use for testing spells.
   default:
     name: Wand
-    description: $path Magic Wand
+    description: $path &rMagic Wand
   wand:
     name: Wand
-    description: $path Magic Wand
+    description: $path &rMagic Wand
     randomized_lore: What kind will you get?
   starter:
     name: Starter Wand
@@ -2810,13 +2810,13 @@ wands:
     inventory_instructions: '&r&bUse the drop (Q) button to open/close the spell inventory.'
   magicsword:
     name: Magic Sword
-    description: $path Magic Sword
+    description: $path &rMagic Sword
     spell_instructions: '&r&bUse the hotbar buttons to cast spells. Spells require
       mana, shown in the XP bar.'
     inventory_instructions: '&r&bUse the drop (Q) button to open/close the spell inventory.'
   magicbow:
     name: Magic Bow
-    description: $path Magic Bow
+    description: $path &rMagic Bow
     spell_instructions: ''
     inventory_instructions: '&r&bUse the drop (Q) button to open/close the spell inventory.'
   mastersword:
@@ -2824,13 +2824,13 @@ wands:
     description: The legendary sword that seals the darkness
   engineer:
     name: Engineering Wand
-    description: $path Magic Wand
+    description: $path &rMagic Wand
   architect:
     name: Architect Wand
-    description: $path Magic Wand
+    description: $path &rMagic Wand
   conduit:
     name: Conduit Wand
-    description: $path Magic Wand
+    description: $path &rMagic Wand
   architectstaff:
     name: The Architect
     description: With Great Power Comes Great Responsibility
@@ -3132,7 +3132,7 @@ wands:
     description: Right-click to view skills, drag skill to hotbar to use
   spellbook:
     name: Spell Book
-    description: $path spellbook
+    description: $path &rSpellbook
     spell_instructions: '&r&bUse the hotbar button to cast spells that you have put
       on your hotbar.'
     inventory_instructions: '&r&bRight-click to open the spell inventory and drag
@@ -3672,38 +3672,38 @@ classes:
     description: Hunt down the rebel scum
 paths:
   beginner:
-    name: Beginner
+    name: '&7Beginner'
     description: Just starting out with magic
   student:
-    name: Student
+    name: '&2Student'
     description: Starting to learn the basics
   apprentice:
-    name: Apprentice
+    name: '&aApprentice'
     description: A good variety of spells
   master:
-    name: Wizard
+    name: '&6Wizard'
     description: The penultimate wizard
     required_spell: '&cNothing new to learn for now! &4What mystery lies ahead?'
   engineer:
-    name: Engineer
+    name: '&5Engineer'
     description: Has engineering spells
   architect:
-    name: Architect
+    name: '&dArchitect'
     description: Has super-powerful engineering spells
   conduit:
-    name: Conduit
+    name: '&3Conduit'
     description: Can manifest blocks from pure energy
   battle:
-    name: Warrior
+    name: '&7Warrior'
     description: Low-level combat spells
   squire:
-    name: Squire
+    name: '&2Squire'
     description: Mid-level combat spells
   soldier:
-    name: Soldier
+    name: '&aSoldier'
     description: High-level combat spells
   knight:
-    name: Knight
+    name: '&6Knight'
     description: Master-level combat spells
   broom:
     name: Broom
@@ -3712,10 +3712,10 @@ paths:
     name: Blaster
     description: Blaster upgrades
   staff:
-    name: Staff
+    name: '&bStaff'
     description: Staff-only spells
   archer:
-    name: Archer
+    name: '&6Archer'
     description: Archer spells
   year1:
     name: First Year
@@ -3743,36 +3743,36 @@ paths:
     name: Graduates
     description: What comes next?
   airbending:
-    name: Airbending
+    name: '&bAirbender'
   waterbending:
-    name: Waterbending
+    name: '&9Waterbender'
   earthbending:
-    name: Earthbending
+    name: '&7Earthbender'
   firebending:
-    name: Firebending
+    name: '&cFirebender'
   avatar:
-    name: Avatar
+    name: '&3Avatar'
     description: Master of all four elements
   youngling:
-    name: Youngling
+    name: '&6Youngling'
   padawan:
-    name: Padawan
+    name: '&6Padawan'
   jedi_knight:
-    name: Jedi Knight
+    name: '&6Jedi Knight'
   jedi_master:
-    name: Jedi Master
+    name: '&eJedi Master'
   acolyte:
-    name: Sith Acolyte
+    name: '&4Sith Acolyte'
   sith_apprentice:
-    name: Sith Apprentice
+    name: '&4Sith Apprentice'
   sith:
-    name: Sith
+    name: '&4Sith'
   marauder:
-    name: Sith Marauder
+    name: '&4Sith Marauder'
   sith_master:
-    name: Sith Master
+    name: '&4Sith Master'
   sith_lord:
-    name: Sith Lord
+    name: '&cSith Lord'
 randomized:
   wood:
   - Acacia

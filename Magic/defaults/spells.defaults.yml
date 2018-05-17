@@ -6028,6 +6028,7 @@ flatten:
     range: 32
     radius: 16
     vertical_range: 32
+    volume_type: reverse_spiral
     faces:
     - down
     - north
@@ -6171,7 +6172,7 @@ force:
       location: origin
       effectlib:
         class: DnaEffect
-        particlesBase: 0
+        particles_base: 0
         particles_helix: 7
         particle_helix: spell_mob
         particle_base1: spell_mob
@@ -7717,7 +7718,7 @@ healing:
   icon_disabled: diamond_hoe:46
   icon_url: http://textures.minecraft.net/texture/6b7da98ef45cf45185d21d61f5fa3d5966a3ee52273620a6e4dfd54cf99dbc
   category: light
-  hiden: true
+  hidden: true
   worth: 150
   actions:
     cast:
@@ -11464,7 +11465,7 @@ push:
           radius: (t/i) * 4 + 0.2
         effect:
           class: DnaEffect
-          particlesBase: 0
+          particles_base: 0
           particles_helix: 7
           particle_helix: spell
           particle_base1: spell
@@ -11491,7 +11492,7 @@ push:
           radius: (t/i) * 4 + 0.2
         effect:
           class: DnaEffect
-          particlesBase: 0
+          particles_base: 0
           particles_helix: 7
           particle_helix: spell
           particle_base1: spell
@@ -11767,7 +11768,7 @@ raise:
       particle_offset_y: 5
       particle_offset_z: 0.5
   parameters:
-    range: 32
+    range: 64
     radius: 16
     vertical_range: 32
     consume: true
@@ -14756,6 +14757,7 @@ superlaser:
       color_override: colorHelix
       effectlib:
         class: DnaEffect
+        particles_base: 5
         particles_helix: 7
         particle_helix: redstone
         particle_base1: drip_lava
@@ -14763,9 +14765,8 @@ superlaser:
         iterations: 10
         radius: 1.5
         grow: 0.2
-        baseInterval: 5
+        base_interval: 5
         length: 16
-        particlesBase: 5
     cast:
     - class: EffectSingle
       sound: magic.zap_crack
