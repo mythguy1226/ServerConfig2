@@ -12,26 +12,6 @@
     style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">5
     <span style="color:yellow">SP</span></span></span></span></div>'
   owner: ''
-a928258c-b5bb-49d8-91a5-1daf647bbf93:
-  location: 13.778554686512827,62.0,11.22760432682231,survival112_the_end,228.15646,0.0
-  name: Flower Acid
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">Flower Acid</span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">8
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
-    style="color:white"><span style="color:gray">Lasts for 7 seconds</span></span></div>'
-  owner: ''
-44ffbfb9-43f4-44c8-8883-33dcb5f79726:
-  location: 76.530192955014,25.0,104.73358764123904,survival112_nether,7.587221,0.0
-  name: Flower Acid
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">Flower Acid</span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">8
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
-    style="color:white"><span style="color:gray">Lasts for 7 seconds</span></span></div>'
-  owner: ''
 773141b7-41e0-4c86-a2ab-0163a3ee01d5:
   location: 717.2412999857172,69.1181568706581,1012.1128919596637,survival112,337.70016,0.0
   name: CosmicBoltWand
@@ -44,16 +24,6 @@ a928258c-b5bb-49d8-91a5-1daf647bbf93:
   owner: ''
 9ca4b548-a03e-41ea-9893-496a3a911450:
   location: 873.7839304654528,98.69615292146557,807.1006193086562,survival112,151.14749,0.0
-  name: CosmicBoltWand
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:gold">cosmicbolt<span style="color:white">
-    (<span style="color:darkaqua">CosmicBoltWand<span style="color:white">)</span></span></span></span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">10
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">64 <span style="color:blue">meters</span></span></span></span></span></div>'
-  owner: ''
-e9027199-6dc7-4103-a737-eaebaddccd25:
-  location: -337.454858760948,113.0,-256.66011542015946,helicarrier,7.136364,0.0
   name: CosmicBoltWand
   description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
     style="color:white"><span style="color:gold">cosmicbolt<span style="color:white">
@@ -108,26 +78,22 @@ ad118888-504e-4618-a81d-65703f567716:
     style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">8
     <span style="color:yellow">SP</span></span></span></span></div>'
   owner: ''
-149c4e37-709b-475b-a9f0-fab3ba4ae96b:
-  location: 873.8200014481713,98.69615292146557,807.0379082561558,survival112,338.55057,0.0
-  name: Accelerate Time
+233d9f32-a0a4-4a99-b45c-878cbb0474bd:
+  location: 118.39180365204811,76.4378425180912,432.724107503891,survival112,318.06485,0.0
+  name: Meteor Shower
   description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:gold">acceleratetime<span style="color:white">
-    (<span style="color:darkaqua">Accelerate Time<span style="color:white">)</span></span></span></span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">30
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">32 <span style="color:blue">meters</span></span></span></span></span><br/><span
-    style="color:white"><span style="color:gray">Lasts for 5 seconds</span></span><br/><span
-    style="color:white"><span style="color:yellow">Consumes 50 Mana</span></span><br/><span
-    style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">6
-    <span style="color:yellow">SP</span></span></span></span></div>'
-  owner: ''
-1e60f00b-bbac-4b5a-91e7-1ddf63505ec1:
-  location: 76.66150525080849,25.0,104.60013927888858,survival112_nether,237.81006,0.0
-  name: Pistol
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">Pistol</span></span></h2></div>'
-  owner: ''
+    style="color:white"><span style="color:gold">meteorshower<span style="color:white">
+    (<span style="color:darkaqua">Meteor Shower<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">Bound
+    to ronq23</span></span></span><br/><span style="color:white"><span style="color:yellow">Cooldown:
+    <span style="color:gold">10 seconds</span></span></span><br/><span style="color:white"><span
+    style="color:gray"><span style="color:blue">Range: <span style="color:gold">64
+    <span style="color:blue">meters</span></span></span></span></span><br/><span style="color:white"><span
+    style="color:gray">Lasts for 10 seconds</span></span><br/><span style="color:white"><span
+    style="color:yellow">Consumes 200 Mana</span></span><br/><span style="color:white"><span
+    style="color:darkgreen">Earns up to <span style="color:gold">5 SP</span></span></span></div>'
+  owner: ronq23
+  owner_id: 575e16ba-7021-4677-82b3-f97f15e9ef3e
 0f8c3054-7a6b-4fbd-9073-69831aac12a1:
   location: 1723.9734101291433,95.414927693183,1699.6915231754672,survival112,215.47742,0.0
   name: ForceFieldWand
@@ -152,16 +118,6 @@ ad118888-504e-4618-a81d-65703f567716:
     style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">5
     <span style="color:yellow">SP</span></span></span></span></div>'
   owner: ''
-b0908035-f25a-4a17-a935-afb521efb24f:
-  location: 315.5,4.0,226.5,chicago,61.56581,0.0
-  name: ForceFieldWand
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:darkaqua">ForceFieldWand</span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">3
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
-    style="color:white"><span style="color:gray">Lasts for 0 seconds</span></span></div>'
-  owner: ''
 3c84c281-3aab-4d55-9293-411b255b6062:
   location: 40.55713016641295,28.0,53.45066478252411,survival112_nether,236.19504,0.0
   name: Rocket Launcher
@@ -177,20 +133,6 @@ b0908035-f25a-4a17-a935-afb521efb24f:
     seconds</span></span></span><br/><span style="color:white"><span style="color:gray">Lasts
     for 15 seconds</span></span><br/><span style="color:white"><span style="color:yellow">Consumes
     150 Mana</span></span></div>'
-  owner: ''
-8b825c5f-7de2-4710-b55d-636ea4c5bc67:
-  location: 9.0,51.0,39.0286221107885,survival112_nether,172.79878,0.0
-  name: Freeze Time
-  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
-    style="color:white"><span style="color:gold">freezetime<span style="color:white">
-    (<span style="color:darkaqua">Freeze Time<span style="color:white">)</span></span></span></span></span></h2><br/><span
-    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">10
-    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
-    style="color:blue">Range: <span style="color:gold">7 <span style="color:blue">meters</span></span></span></span></span><br/><span
-    style="color:white"><span style="color:gray">Lasts for 5 seconds</span></span><br/><span
-    style="color:white"><span style="color:yellow">Consumes 50 Mana</span></span><br/><span
-    style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">8
-    <span style="color:yellow">SP</span></span></span></span></div>'
   owner: ''
 d867a758-b3eb-4613-a3a4-8cfa8f9e64bb:
   location: -142.9397622778124,-999.5728962985501,-11.888184243180527,survival112_the_end,209.14368,0.0
@@ -216,6 +158,22 @@ d867a758-b3eb-4613-a3a4-8cfa8f9e64bb:
     style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">6
     <span style="color:yellow">SP</span></span></span></span></div>'
   owner: ''
+3f0bce9a-a163-4e77-9c88-ac6c98454f5e:
+  location: 118.43710526823997,76.1943656951189,432.6352657675743,survival112,304.4269,0.0
+  name: Freeze Time
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">freezetime<span style="color:white">
+    (<span style="color:darkaqua">Freeze Time<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">Bound
+    to ronq23</span></span></span><br/><span style="color:white"><span style="color:yellow">Cooldown:
+    <span style="color:gold">10 seconds</span></span></span><br/><span style="color:white"><span
+    style="color:gray"><span style="color:blue">Range: <span style="color:gold">7
+    <span style="color:blue">meters</span></span></span></span></span><br/><span style="color:white"><span
+    style="color:gray">Lasts for 5 seconds</span></span><br/><span style="color:white"><span
+    style="color:yellow">Consumes 50 Mana</span></span><br/><span style="color:white"><span
+    style="color:darkgreen">Earns up to <span style="color:gold">8 SP</span></span></span></div>'
+  owner: ronq23
+  owner_id: 575e16ba-7021-4677-82b3-f97f15e9ef3e
 a19063c4-86ad-4918-8c38-2149d6baca1a:
   location: 9.296360268527366,51.0,39.35434194416252,survival112_nether,214.17155,0.0
   name: Odin Lightning
@@ -228,6 +186,108 @@ a19063c4-86ad-4918-8c38-2149d6baca1a:
     style="color:white"><span style="color:gray">Lasts for 10 seconds</span></span><br/><span
     style="color:white"><span style="color:yellow">Consumes 100 Mana</span></span></div>'
   owner: ''
+a928258c-b5bb-49d8-91a5-1daf647bbf93:
+  location: 13.778554686512827,62.0,11.22760432682231,survival112_the_end,228.15646,0.0
+  name: Flower Acid
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">Flower Acid</span></span></h2><br/><span
+    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">8
+    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
+    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
+    style="color:white"><span style="color:gray">Lasts for 7 seconds</span></span></div>'
+  owner: ''
+44ffbfb9-43f4-44c8-8883-33dcb5f79726:
+  location: 76.530192955014,25.0,104.73358764123904,survival112_nether,7.587221,0.0
+  name: Flower Acid
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">Flower Acid</span></span></h2><br/><span
+    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">8
+    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
+    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
+    style="color:white"><span style="color:gray">Lasts for 7 seconds</span></span></div>'
+  owner: ''
+e9027199-6dc7-4103-a737-eaebaddccd25:
+  location: -337.454858760948,113.0,-256.66011542015946,helicarrier,7.136364,0.0
+  name: CosmicBoltWand
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">cosmicbolt<span style="color:white">
+    (<span style="color:darkaqua">CosmicBoltWand<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">10
+    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
+    style="color:blue">Range: <span style="color:gold">64 <span style="color:blue">meters</span></span></span></span></span></div>'
+  owner: ''
+149c4e37-709b-475b-a9f0-fab3ba4ae96b:
+  location: 873.8200014481713,98.69615292146557,807.0379082561558,survival112,338.55057,0.0
+  name: Accelerate Time
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">acceleratetime<span style="color:white">
+    (<span style="color:darkaqua">Accelerate Time<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">30
+    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
+    style="color:blue">Range: <span style="color:gold">32 <span style="color:blue">meters</span></span></span></span></span><br/><span
+    style="color:white"><span style="color:gray">Lasts for 5 seconds</span></span><br/><span
+    style="color:white"><span style="color:yellow">Consumes 50 Mana</span></span><br/><span
+    style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">6
+    <span style="color:yellow">SP</span></span></span></span></div>'
+  owner: ''
+10347c8e-8970-4cb2-adc4-e1fe2252a747:
+  location: 118.37188905477524,76.48686987161636,432.50176978111267,survival112,253.17868,0.0
+  name: CosmicBoltWand
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">cosmicbolt<span style="color:white">
+    (<span style="color:darkaqua">CosmicBoltWand<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">Bound
+    to ronq23</span></span></span><br/><span style="color:white"><span style="color:yellow">Cooldown:
+    <span style="color:gold">10 seconds</span></span></span><br/><span style="color:white"><span
+    style="color:gray"><span style="color:blue">Range: <span style="color:gold">64
+    <span style="color:blue">meters</span></span></span></span></span></div>'
+  owner: ronq23
+  owner_id: 575e16ba-7021-4677-82b3-f97f15e9ef3e
+1e60f00b-bbac-4b5a-91e7-1ddf63505ec1:
+  location: 76.66150525080849,25.0,104.60013927888858,survival112_nether,237.81006,0.0
+  name: Pistol
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">Pistol</span></span></h2></div>'
+  owner: ''
+b0908035-f25a-4a17-a935-afb521efb24f:
+  location: 315.5,4.0,226.5,chicago,61.56581,0.0
+  name: ForceFieldWand
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">ForceFieldWand</span></span></h2><br/><span
+    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">3
+    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
+    style="color:blue">Range: <span style="color:gold">3 <span style="color:blue">meters</span></span></span></span></span><br/><span
+    style="color:white"><span style="color:gray">Lasts for 0 seconds</span></span></div>'
+  owner: ''
+8b825c5f-7de2-4710-b55d-636ea4c5bc67:
+  location: 9.0,51.0,39.0286221107885,survival112_nether,172.79878,0.0
+  name: Freeze Time
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">freezetime<span style="color:white">
+    (<span style="color:darkaqua">Freeze Time<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:yellow">Cooldown: <span style="color:gold">10
+    seconds</span></span></span><br/><span style="color:white"><span style="color:gray"><span
+    style="color:blue">Range: <span style="color:gold">7 <span style="color:blue">meters</span></span></span></span></span><br/><span
+    style="color:white"><span style="color:gray">Lasts for 5 seconds</span></span><br/><span
+    style="color:white"><span style="color:yellow">Consumes 50 Mana</span></span><br/><span
+    style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">8
+    <span style="color:yellow">SP</span></span></span></span></div>'
+  owner: ''
+67bc25df-ee02-4bdf-8305-c9c2feee1952:
+  location: 118.22922825813293,76.55565267801285,432.7101185321808,survival112,230.47289,0.0
+  name: Odin Lightning
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">odinlightning<span style="color:white">
+    (<span style="color:darkaqua">Odin Lightning<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">Bound
+    to ronq23</span></span></span><br/><span style="color:white"><span style="color:yellow">Cooldown:
+    <span style="color:gold">10 seconds</span></span></span><br/><span style="color:white"><span
+    style="color:gray"><span style="color:blue">Range: <span style="color:gold">32
+    <span style="color:blue">meters</span></span></span></span></span><br/><span style="color:white"><span
+    style="color:gray">Lasts for 10 seconds</span></span><br/><span style="color:white"><span
+    style="color:yellow">Consumes 100 Mana</span></span></div>'
+  owner: ronq23
+  owner_id: 575e16ba-7021-4677-82b3-f97f15e9ef3e
 7da3b170-65e7-4e3e-98ad-2ac6d4be345f:
   location: 699.4234360922915,74.4871717624915,1000.5883859545451,survival112,92.56365,0.0
   name: Telekinesis
@@ -242,3 +302,16 @@ a19063c4-86ad-4918-8c38-2149d6baca1a:
     style="color:white"><span style="color:darkgreen">Earns up to <span style="color:gold">5
     <span style="color:yellow">SP</span></span></span></span></div>'
   owner: ''
+f8108156-0507-4f7e-b195-56b653b09976:
+  location: 118.45494571328163,76.37252289056778,432.24197721481323,survival112,34.065716,0.0
+  name: CosmicBoltWand
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">cosmicbolt<span style="color:white">
+    (<span style="color:darkaqua">CosmicBoltWand<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">Bound
+    to ronq23</span></span></span><br/><span style="color:white"><span style="color:yellow">Cooldown:
+    <span style="color:gold">10 seconds</span></span></span><br/><span style="color:white"><span
+    style="color:gray"><span style="color:blue">Range: <span style="color:gold">64
+    <span style="color:blue">meters</span></span></span></span></span></div>'
+  owner: ronq23
+  owner_id: 575e16ba-7021-4677-82b3-f97f15e9ef3e

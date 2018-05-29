@@ -311,19 +311,13 @@ players:
   2a63e405-eecf-480a-9fcf-1e22b996d998:
     party: The
     name:
-      timestamp: 1525466741
-      name: RoryDaPanda
+      timestamp: 1527107629
+      name: SpiralSanta
     rank: 5
   0889f21e-b82c-49a0-ab3c-6e5b0232d093:
     name:
       timestamp: 1525468572
       name: Oranges_are_glad
-    rank: 5
-    party: The
-  f9e3d8f3-f579-478f-a458-a7efaaf7bcdd:
-    name:
-      timestamp: 1525483262
-      name: SantaClad
     rank: 5
     party: The
   9179e43f-3c9a-4a67-a794-24a923b2c72c:
@@ -350,12 +344,6 @@ players:
       timestamp: 1526511827
     rank: 20
     party: Hai
-  0e88e52e-2945-464e-b4ba-e1e162c6786d:
-    rank: 5
-    name:
-      timestamp: 1526079560
-      name: Miner_Myles
-    party: The
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
     rank: 20
     party: mix
@@ -368,6 +356,36 @@ players:
       timestamp: 1526176865
       name: darkstumper
     party: mix
+  9b575e7a-e514-458f-910e-992fc9359bc0:
+    party: TheSupers
+    rank: 20
+    name:
+      name: Aang__
+      timestamp: 1526717886
+  0e88e52e-2945-464e-b4ba-e1e162c6786d:
+    rank: 20
+    name:
+      timestamp: 1526770175
+      name: Miner_Myles
+    party: Myles
+  cb1a7a9b-e719-42c4-a35a-ad0b081488ec:
+    name:
+      name: DodiThunder
+      timestamp: 1526918539
+    party: BloodSkull
+    rank: 20
+  8debd337-17db-4543-91ed-c4d9068cd2f6:
+    name:
+      name: Matkid11
+      timestamp: 1526918587
+    party: BloodSkull
+    rank: 5
+  e72c4081-efce-4940-819e-94bdb23b72e6:
+    rank: 5
+    name:
+      name: Luxurielle
+      timestamp: 1527207549
+    party: Myles
 parties:
   TheTitans:
     members:
@@ -475,8 +493,6 @@ parties:
     - 57b29f1f-dc6b-4d30-80ac-cf64c4df3428
     - 2a63e405-eecf-480a-9fcf-1e22b996d998
     - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
-    - f9e3d8f3-f579-478f-a458-a7efaaf7bcdd
-    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
   XFORCE:
     members:
     - ab5533d2-a779-47b4-aa95-2a992bc8f0ce
@@ -500,3 +516,17 @@ parties:
     - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
     - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
     leader: 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
+  TheSupers:
+    leader: 9b575e7a-e514-458f-910e-992fc9359bc0
+    members:
+    - 9b575e7a-e514-458f-910e-992fc9359bc0
+  Myles:
+    members:
+    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    - e72c4081-efce-4940-819e-94bdb23b72e6
+    leader: 0e88e52e-2945-464e-b4ba-e1e162c6786d
+  BloodSkull:
+    members:
+    - cb1a7a9b-e719-42c4-a35a-ad0b081488ec
+    - 8debd337-17db-4543-91ed-c4d9068cd2f6
+    leader: cb1a7a9b-e719-42c4-a35a-ad0b081488ec
