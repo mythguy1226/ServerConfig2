@@ -15,7 +15,7 @@ powers:
 - /effects
 - /items
 - /run 0-3
-- /run 0-4
+- /jump 0-4
 run: 3
 jump: 4
 speech: Lucario!
