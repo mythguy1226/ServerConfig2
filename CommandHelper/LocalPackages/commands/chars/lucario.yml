@@ -1,0 +1,23 @@
+class: lucario
+costumes:
+- chatcolor: '&9'
+  name: §1L§0u§7c§9a§1r§0i§9o
+  sig: oOjj/IwZ75m3turBUTSachsz+oB3qluZg0+VKYNSVDLBHZXgaK0//t311Ai43YcOp6/GSO7QjfJkQJ9S4tqRgGPW8plasPy1bpvq/pwczqH3a3Pee9b1ejAUpnwzI7LFYFz0B1Ec50k+j1blDFUAwNys1npJUpfT0wByDvR6C5dCyrj9mE4wcikWQUi4I93dnz58gAx30ALsLTcW04rjX8gHJnDOHLT2iMWORvwXw3wRyg+r0JKLcZyixzPNCYY+DiDsG1ypupgmN5Yew/0KODBc6zc3cJxyVxA3l21AYHsccbpJQUTeJallUP7Md5fVI2jm1z/gf1U6XPXsO8kbSFSj7w0YYPhfvJ2xbkdzsuniN08IISh69tkGh/cn1iMnUlqRQcHnFKRBcjmctk/Na6CB3kdnxVDR9WEgryrGRUYinUDzg3s4DhMWhfjpIG/m/BGIgyGJg17qiIsfl5jPLQ3GG6adhSfr8J503f3qhBBsMmWYE2/2mN9l5SN2jI/C7seLK0+A3yf2uVfgh776fsxA2JYUCrF76q2y/1y2f1vCBVlePG/+N3SbN+Z/OBGp/T1yUutecaPZkISbhiqxVo1iemRw7dgqeEMVE7oiPYUlAnrkyQEC2BwO6xF5N+omsEvMDQo5Utw1V3Oj+YVAOgSfYV6GcHJTDxZC4VWv4Eo=
+  val: eyJ0aW1lc3RhbXAiOjE1Mjc4MTMwNDg0NDIsInByb2ZpbGVJZCI6ImY2MjE1ODZlOGVmODQ0OGQ5MjY0ODZiNjEzNzUwNTJlIiwicHJvZmlsZU5hbWUiOiJNeXRoaWZpY2F0aW9uIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODlmZjJiYzMwZjYxYmZiY2E1NzliN2FmYTMwZTNmNTc4OGY2YTAyZmVlNWFkN2QwMzJmNWI1NWM1MDEyOWY0In19fQ==
+effects:
+items:
+- /mgive <plr> sonicwavewand
+- /mgive <plr> lucarioballwand
+maxHearts: 20
+permissions:
+  superherocity:
+powers:
+- /effects
+- /items
+- /run 0-3
+- /run 0-4
+run: 3
+jump: 4
+speech: Lucario!
+trail: [
+]
