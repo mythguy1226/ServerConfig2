@@ -1,0 +1,60 @@
+sonicwave:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 20
+  category: combat
+  worth: 150
+  earns_sp: 7
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Damage
+      - class: PotionEffect
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.sonic
+      location: origin
+      color_override: color
+      effectlib:
+        class: ConeEffect
+        iterations: 45
+        particle: redstone
+        color: aaaaaa
+        lengthGrow: 0.1
+        radiusGrow: 0.05
+        updateLocations: false
+        updateDirections: false
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: fireworks_spark
+      particle_count: 10
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      sound: magic.zap
+      sound_volume: 0.3
+      particle_data: 0.1
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 24
+    hitbox: true
+    target_type: Damageable
+    damage: 6
+    target_breakables: 1
+    duration: 5000
+    effect_confusion: 5
+    cooldown: 7000
+    reorient: false
+    destructible: solid
+    destructible_durability: 50
+    break_durability: 2
+    undo: 10000
+  costs:
+    mana: 15
