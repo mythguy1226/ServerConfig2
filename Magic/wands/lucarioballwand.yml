@@ -6,7 +6,7 @@ lucarioballwand:
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
-  effect_color: aaaaaa
+  effect_color: 00ffff
   name: LucarioBallWand
   mana_max: 300.0
   page: 0
